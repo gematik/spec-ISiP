@@ -1,2 +1,4 @@
 # isip
 Informationssysteme in der Pflege
+
+In diesem Repository werden Vorschläge für den interoperablen und intersektoralen Austausch von Gesundheitsdaten im Krankenhaus erarbeitet. Diese Vorschläge können als [github issues](https://github.com/gematik/IsiP/issues) in diesem Projekt gemacht werden. Bitte prüfen Sie, ob ein ähnliches Issue bereits existiert, um Duplikate zu vermeiden. Ihre Änderungswünsche werden dann von der IsiP Arbeitsgruppe mit Ihnen diskutiert, um sicherzustellen, dass Ihr Anliegen vollständig verstanden wurde und ob die gewünschte Änderung so umgesetzt werden kann und soll. Ihre validen Änderungswünsche werden kontinuierlich in der IsiP Arbeitsgruppe bearbeitet, in Form von FHIR Artefakten definiert und direkt in das simplifier Repository https://simplifier.net/IsiP gespiegelt. Dort können die jeweils aktuellen FHIR Artefakte direkt im Browser betrachtet werden.
