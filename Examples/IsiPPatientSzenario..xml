@@ -1,0 +1,28 @@
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="scenario-1" />
+  <meta>
+    <profile value="http://gematik.de/fhir/IsiK/StructureDefinition/IsiPPatient" />
+  </meta>
+  <identifier>
+    <type>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0203" />
+        <code value="MR" />
+      </coding>
+    </type>
+    <system value="https://fhir.krankenhaus.example/NamingSystem/PID" />
+    <value value="TestPID" />
+  </identifier>
+  <name>
+    <use value="official" />
+    <family value="Mustermann" />
+    <given value="Max" />
+  </name>
+  <birthDate value="1972-01-01"/>
+  <gender value="male"/>
+  <address>
+	<line value="Musterweg 2"/>
+	<postalCode value="98764"/>
+	<city value="Musterhausen"/>	
+  </address>
+</Patient>
