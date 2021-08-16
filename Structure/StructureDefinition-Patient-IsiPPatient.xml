@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <url value="http://gematik.de/fhir/IsiP/StructureDefinition/IsiPPatient" />
-  <version value="1.0" />
+  <version value="1.1" />
   <name value="IsiPPatient" />
   <status value="active" />
   <description value="Dieses Profil die Nutzung von administrativen Patientendaten in IsiP Szenarien." />
