@@ -1,0 +1,23 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "IsipVersicherungsverhaeltnisGesetzlich",
+  "url": "https://gematik.de/fhir/ISiP/StructureDefinition/IsipVersicherungsverhaeltnisGesetzlich",
+  "version": "0.1.0",
+  "name": "IsipVersicherungsverhaeltnisGesetzlich",
+  "status": "active",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Coverage",
+  "baseDefinition": "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKVersicherungsverhaeltnisGesetzlich",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Coverage.period",
+        "path": "Coverage.period",
+        "mustSupport": true
+      }
+    ]
+  }
+}

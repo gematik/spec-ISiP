@@ -1,0 +1,13 @@
+id: de.gematik.isip
+canonical: https://gematik.de/fhir/ISiP
+name: ISIP
+status: draft
+version: 0.1.0
+fhirVersion: 4.0.1
+FSHOnly: true
+publisher:
+  name: Gematik GmbH
+dependencies:
+  de.gematik.isik-basismodul: 
+    uri: https://gematik.de/fhir/ISiK/ImplementationGuide/ISiK-basismodul
+    version: 1.0.1
