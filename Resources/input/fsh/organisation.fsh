@@ -1,12 +1,16 @@
 Profile: IsipOrganization
 Parent: Organization
-Id: IsipOrganization
+Id: isip-organization
 Title: "IsipOrganization"
-Description: ""
 * identifier MS
-* active MS // Bedeutung?
+* active MS
 * type MS // welche Types?
 * name 1..1 MS
-* telecom MS // slices: phone/fax/email
+* telecom MS
+  * system 1..1 MS
+  * system from KontaktArtenVS
+  * value 1..1 MS
+  * use 1..1 MS
+  * rank MS
 * address MS
 
