@@ -1,10 +1,16 @@
 Profile: ISiPPractitioner
 Parent: PractitionerStufe1
-Id: ISiPPractitioner
+Id: isip-practitioner
 Title: "ISiPPractitioner"
 Description: "ISiPPractitioner"
 //BSNR ??? --> per Organization verlinken+
 * active MS 
-* telecom MS //+slicing: phone/fax/mail
+* telecom MS
+  * system 1..1 MS
+  * system from KontaktArtenVS
+  * value 1..1 MS
+  * use 1..1 MS
+  * rank MS
 * address MS
-//* birthDate MS // use-case?
+* qualification MS
+  * code MS
