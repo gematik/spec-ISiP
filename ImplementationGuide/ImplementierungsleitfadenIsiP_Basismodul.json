@@ -1,0 +1,17 @@
+{
+  "resourceType": "ImplementationGuide",
+  "url": "https://gematik.de/fhir/ISiP/ImplementationGuide/ISiP",
+  "name": "Implementierungsleitfaden ISiP-Basismodul (Stufe 1)",
+  "status": "draft",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "packageId": "de.gematik.isip-basismodul",
+  "definition": {
+    "page": {
+      "nameUrl": "ImplementationGuide/Einfuehrung.md",
+      "title": "Einführung",
+      "generation": "markdown"
+    }
+  }
+}
