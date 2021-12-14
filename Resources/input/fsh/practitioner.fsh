@@ -14,3 +14,14 @@ Description: "ISiPPractitioner"
 * address MS
 * qualification MS
   * code MS
+
+
+Profile: ISiPPractitionerRole
+Parent: PractitionerRole
+Id: ISiPPractitionerRole
+Title: "ISiPPractitionerRole"
+Description: "ISiPPractitionerRole"
+* practitioner 1..1 MS
+* practitioner only Reference(ISiPPractitioner)
+* organization MS
+* organization only Reference(IsipOrganization)

@@ -10,5 +10,5 @@ publisher:
 dependencies:
   de.gematik.isik-basismodul: 
     uri: https://gematik.de/fhir/ISiK/ImplementationGuide/ISiK-basismodul
-    version: 1.0.1
+    version: 1.0.2
   de.basisprofil.r4: 1.1.0
