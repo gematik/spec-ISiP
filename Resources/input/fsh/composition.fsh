@@ -26,8 +26,10 @@ Id: StammdatenDokumentBundle
 Title: "StammdatenDokumentBundle"
 Description: "StammdatenDokumentBundle"
 * type = #document
+* entry MS
 * entry ^slicing.discriminator.type = #profile
 * entry ^slicing.discriminator.path = "resource"
 * entry ^slicing.rules = #open
 * entry contains stammdatenComposition 1..1 MS
 * entry[stammdatenComposition].resource only Stammdatendokument
+* entry[stammdatenComposition].resource 1..1 MS
