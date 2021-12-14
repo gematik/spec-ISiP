@@ -5,6 +5,7 @@ Alias: CoverageGesetzlichStufe1 = https://gematik.de/fhir/ISiK/StructureDefiniti
 Alias: CoveragePrivatStufe1 = https://gematik.de/fhir/ISiK/StructureDefinition/ISiKVersicherungsverhaeltnisSelbstzahler
 Alias: EncounterIsikStufe1 = https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKontaktGesundheitseinrichtung
 Alias: ConditionIsik =  https://gematik.de/fhir/ISiK/StructureDefinition/ISiKDiagnose
+Alias: ISiKComposition = https://gematik.de/fhir/ISiK/StructureDefinition/ISiKBerichtSubSysteme
 
 //FHIR DE basis:
 Alias: IKNR = http://fhir.de/StructureDefinition/identifier-iknr

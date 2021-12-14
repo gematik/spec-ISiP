@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "Pflegeepisode",
+  "id": "pflegeepisode",
   "extension": [
     {
       "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
@@ -11,7 +11,7 @@
       "valueCode": "patient"
     }
   ],
-  "url": "https://gematik.de/fhir/ISiP/StructureDefinition/Pflegeepisode",
+  "url": "https://gematik.de/fhir/ISiP/StructureDefinition/pflegeepisode",
   "version": "0.1.0",
   "name": "Pflegeepisode",
   "title": "Pflegeepisode",
@@ -56,6 +56,14 @@
         "id": "Encounter.subject",
         "path": "Encounter.subject",
         "min": 1,
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "https://gematik.de/fhir/ISiP/StructureDefinition/isip-patient"
+            ]
+          }
+        ],
         "mustSupport": true
       },
       {

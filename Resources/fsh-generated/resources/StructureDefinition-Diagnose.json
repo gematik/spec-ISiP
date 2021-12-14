@@ -21,7 +21,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKPatient"
+              "https://gematik.de/fhir/ISiP/StructureDefinition/isip-patient"
             ]
           }
         ]
@@ -33,7 +33,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "https://gematik.de/fhir/ISiP/StructureDefinition/Pflegeepisode"
+              "https://gematik.de/fhir/ISiP/StructureDefinition/pflegeepisode"
             ]
           }
         ]

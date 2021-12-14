@@ -1,6 +1,6 @@
 Profile: Diagnose
 Parent: ConditionIsik
 Title: "(Pflege)-Diagnose"
-* subject only Reference(PatientStufe1)
+* subject only Reference(IsipPatient)
 * encounter only Reference(Pflegeepisode)
 * onset[x] MS
