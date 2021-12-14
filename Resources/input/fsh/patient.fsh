@@ -2,6 +2,10 @@ Profile: IsipPatient
 Parent: PatientStufe1
 Id: isip-patient
 Description: "ISiP Patient"
+* identifier contains versichertennummer_kvk 0..1 MS
+* identifier[versichertennummer_kvk]
+  * type ^patternCoding.system = "https://fhir.kbv.de/CodeSystem/KBV_CS_Base_identifier_type"
+  * type ^patternCoding.code = #kvk
 * telecom MS
   * system 1..1 MS
   * system from KontaktArtenVS
