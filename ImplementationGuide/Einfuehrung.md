@@ -1,7 +1,7 @@
 <img src="https://www.gematik.de/fileadmin/user_upload/MediaUploads/Gematik_Logo_Flag.jpg" alt="gematik logo" width="400"/>
 
 ----
-Version: -
+Version: 0.1.0
 
 Datum: -
 
@@ -11,17 +11,28 @@ Realm: Deutschland
 
 ----
 
-# Interoperabler Datenaustausch durch Informationssysteme im Krankenhaus (ISiK)
+# Interoperabler Datenaustausch durch Informationstechnische Systeme in der Pflege (ISiP)
 
-Die gematik wurde vom Gesetzgeber beauftragt, im Benehmen mit der Deutschen Krankenhausgesellschaft (DKG) und den maßgeblichen Bundesverbänden der Industrie im Gesundheitswesen, verbindliche Standards für den Austausch von Gesundheitsdaten mit Informationssystemen im Krankenhaus zu erarbeiten. Dieser FHIR ImplementationGuide (IG) beschreibt die für diesen Zweck entwickelten FHIR Profile und das [REST](https://de.wikipedia.org/wiki/Representational_State_Transfer)-basierte Application Programming Interface (API). Die REST-API wird im Wesentlichen [vom FHIR Standard vorgegeben](https://www.hl7.org/fhir/http.html). Dieser Leitfaden konkretisiert die ISiK-relevanten Funktionen der Standard-REST-API und trifft inhaltliche Festlegungen zu den ISiK-relevanten Ressourcen in Form von Ressourcen-Profilen.
+Das Projekt Informationstechnische Systeme in der Pflege - ISiP - soll Arbeitsprozesse innerhalb von Pflegeeinrichtungen sinnvoll digital unterstützen. Konkret soll der gesetzliche Auftrag aus den §§ [371](https://dejure.org/gesetze/SGB_V/371.html) und [373](https://dejure.org/gesetze/SGB_V/373.html) SGB-V umgesetzt werden. Daraus ergeben sich folgende essenzielle fachliche Anforderungen:
+
+Nach [§ 373](https://dejure.org/gesetze/SGB_V/373.html) Absatz 3 soll die gematik für die in [§ 371](https://dejure.org/gesetze/SGB_V/371.html[) Absatz 1, Satz 1 und 4, grob definierten informationstechnischen Systeme in der Pflege:
+
+* Schnittstellen zur systemneutralen Archivierung von Patientendaten sowie zur Übertragung von Patientendaten bei Systemwechsel und
+* Schnittstellen für die Anbindung vergleichbarer versorgungsorientierter informationstechnischer Systeme, insbesondere ambulante und klinische Anwendungs- und Datenbanksysteme.
+
+entwickeln.
+
+Nach [§ 373](https://dejure.org/gesetze/SGB_V/373.html) Absatz 4:
+
+* Sind die ISiP Festlegungen im Interoperabilitätsverzeichnis vesta abzulegen.
+
+Dieser FHIR ImplementationGuide (IG) beschreibt die für diesen Zweck entwickelten FHIR Profile und das [REST](https://de.wikipedia.org/wiki/Representational_State_Transfer)-basierte Application Programming Interface (API). Die REST-API wird im Wesentlichen [vom FHIR Standard vorgegeben](https://www.hl7.org/fhir/http.html). Dieser Leitfaden konkretisiert die ISiP-relevanten Funktionen der Standard-REST-API und trifft inhaltliche Festlegungen zu den ISiP-relevanten Ressourcen in Form von Ressourcen-Profilen.
 
 Hersteller bestätigungsrelevanter Systeme sollen durch diesen IG in die Lage versetzt werden, eine konforme Implementierung zu erstellen und das Bestätigungsverfahren der gematik erfolgreich zu absolvieren.
 
-Weitere Informationen siehe [§373 SGB V](https://www.gesetze-im-internet.de/sgb_5/__373.html).
-
 **Kontakt**
 
-[isik@gematik.de](isik@gematik.de)
+[isip@gematik.de](isip@gematik.de)
 
 **Herausgeber**
 
