@@ -57,21 +57,55 @@
               "nameUrl": "ImplementationGuide/RestApi.md",
               "title": "REST-API",
               "generation": "markdown"
-            },
+            }
+          ]
+        },
+        {
+          "nameUrl": "ImplementationGuide/Datenobjekte.md",
+          "title": "Datenobjekte",
+          "generation": "markdown",
+          "page": [
             {
-              "nameUrl": "ImplementationGuide/AnmerkungenMS.md",
-              "title": "Anmerkungen zu Must-Support-Feldern",
+              "nameUrl": "ImplementationGuide/CapabilityStatement.md",
+              "title": "CapabilityStatement",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/Interaktionen.md",
-              "title": "Interaktionen",
-              "generation": "markdown"
-            },
-            {
-              "nameUrl": "ImplementationGuide/Signaldaten.md",
-              "title": "Signaldaten",
-              "generation": "markdown"
+              "nameUrl": "ImplementationGuide/Datenobjekte_Patient.md",
+              "title": "Patient (Patient)",
+              "generation": "markdown",
+              "page": [
+                {
+                  "nameUrl": "ImplementationGuide/Patient_Motivation.md",
+                  "title": "Motivation",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/Patient_Kompatibilitaet.md",
+                  "title": "Kompatibilität",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/Patient_Profil.md",
+                  "title": "Profil",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/Patient_AnmerkungenZuDenMustSupportFeldern.md",
+                  "title": "Anmerkungen zu den Must-Support Feldern",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/Patient_Interaktionen.md",
+                  "title": "Interaktionen",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/Patient_Beispiele.md",
+                  "title": "Beispiele",
+                  "generation": "markdown"
+                }
+              ]
             }
           ]
         }
