@@ -11,14 +11,14 @@
     "page": {
       "nameUrl": "ImplementationGuide/Einfuehrung.md",
       "title": "Einführung",
-      "generation": "markdown"
-    },
-    "page": [
-      {
-        "nameUrl": "ImplementationGuide/Motivation.md",
-        "title": "Motivation",
-        "generation": "markdown"
-      }
-    ]
+      "generation": "markdown",
+      "page": [
+        {
+          "nameUrl": "ImplementationGuide/Motivation.md",
+          "title": "Motivation",
+          "generation": "markdown"
+        }
+      ]
+    }
   }
 }
