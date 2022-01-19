@@ -25,3 +25,4 @@ Description: "ISiPPractitionerRole"
 * practitioner only Reference(ISiPPractitioner)
 * organization MS
 * organization only Reference(IsipOrganization)
+* speciality MS

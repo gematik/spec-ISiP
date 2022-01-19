@@ -56,14 +56,6 @@
         "id": "Encounter.subject",
         "path": "Encounter.subject",
         "min": 1,
-        "type": [
-          {
-            "code": "Reference",
-            "targetProfile": [
-              "https://gematik.de/fhir/ISiP/StructureDefinition/isip-patient"
-            ]
-          }
-        ],
         "mustSupport": true
       },
       {

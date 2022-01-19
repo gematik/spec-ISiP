@@ -51,14 +51,6 @@
         "id": "PractitionerRole.practitioner",
         "path": "PractitionerRole.practitioner",
         "min": 1,
-        "type": [
-          {
-            "code": "Reference",
-            "targetProfile": [
-              "https://gematik.de/fhir/ISiP/StructureDefinition/isip-practitioner"
-            ]
-          }
-        ],
         "mustSupport": true
       },
       {

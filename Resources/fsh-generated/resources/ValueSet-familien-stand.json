@@ -24,6 +24,10 @@
             "display": "Domestic partner"
           },
           {
+            "code": "U",
+            "display": "unmarried"
+          },
+          {
             "code": "W",
             "display": "Widowed"
           }

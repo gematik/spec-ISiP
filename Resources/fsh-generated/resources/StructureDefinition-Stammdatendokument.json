@@ -53,18 +53,6 @@
   "differential": {
     "element": [
       {
-        "id": "Composition.subject",
-        "path": "Composition.subject",
-        "type": [
-          {
-            "code": "Reference",
-            "targetProfile": [
-              "https://gematik.de/fhir/ISiP/StructureDefinition/isip-patient"
-            ]
-          }
-        ]
-      },
-      {
         "id": "Composition.encounter",
         "path": "Composition.encounter",
         "type": [
@@ -98,18 +86,6 @@
         "max": "1"
       },
       {
-        "id": "Composition.section:patient.entry",
-        "path": "Composition.section.entry",
-        "type": [
-          {
-            "code": "Reference",
-            "targetProfile": [
-              "https://gematik.de/fhir/ISiP/StructureDefinition/isip-patient"
-            ]
-          }
-        ]
-      },
-      {
         "id": "Composition.section:condition",
         "path": "Composition.section",
         "sliceName": "condition",
@@ -117,36 +93,11 @@
         "max": "*"
       },
       {
-        "id": "Composition.section:condition.entry",
-        "path": "Composition.section.entry",
-        "type": [
-          {
-            "code": "Reference",
-            "targetProfile": [
-              "https://gematik.de/fhir/ISiP/StructureDefinition/Diagnose"
-            ]
-          }
-        ]
-      },
-      {
         "id": "Composition.section:coverage",
         "path": "Composition.section",
         "sliceName": "coverage",
         "min": 0,
         "max": "*"
-      },
-      {
-        "id": "Composition.section:coverage.entry",
-        "path": "Composition.section.entry",
-        "type": [
-          {
-            "code": "Reference",
-            "targetProfile": [
-              "https://gematik.de/fhir/ISiP/StructureDefinition/IsipVersicherungsverhaeltnisGesetzlich",
-              "https://gematik.de/fhir/ISiP/StructureDefinition/IsipVersicherungsverhaeltnisPrivat"
-            ]
-          }
-        ]
       },
       {
         "id": "Composition.section:encounter",
@@ -175,18 +126,6 @@
         "max": "*"
       },
       {
-        "id": "Composition.section:observation.entry",
-        "path": "Composition.section.entry",
-        "type": [
-          {
-            "code": "Reference",
-            "targetProfile": [
-              "https://gematik.de/fhir/ISiP/StructureDefinition/pflegegrad"
-            ]
-          }
-        ]
-      },
-      {
         "id": "Composition.section:organization",
         "path": "Composition.section",
         "sliceName": "organization",
@@ -211,18 +150,6 @@
         "sliceName": "practitioner",
         "min": 0,
         "max": "*"
-      },
-      {
-        "id": "Composition.section:practitioner.entry",
-        "path": "Composition.section.entry",
-        "type": [
-          {
-            "code": "Reference",
-            "targetProfile": [
-              "https://gematik.de/fhir/ISiP/StructureDefinition/isip-practitioner"
-            ]
-          }
-        ]
       },
       {
         "id": "Composition.section:practitionerRole",

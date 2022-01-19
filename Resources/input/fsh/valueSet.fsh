@@ -11,4 +11,6 @@ Title: "Familienstand des Pflegeempfangenden"
 * MaritalStatus#M "Married"
 * MaritalStatus#D "Divorced"
 * MaritalStatus#T "Domestic partner"
+//NEU
+* MaritalStatus#U "unmarried"
 * MaritalStatus#W "Widowed"
