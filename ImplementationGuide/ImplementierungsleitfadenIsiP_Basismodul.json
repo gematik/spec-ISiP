@@ -12,6 +12,13 @@
       "nameUrl": "ImplementationGuide/Einfuehrung.md",
       "title": "Einführung",
       "generation": "markdown"
-    }
+    },
+    "page": [
+      {
+        "nameUrl": "ImplementationGuide_Vitalwerte/Motivation.md",
+        "title": "Motivation",
+        "generation": "markdown"
+      }
+    ]
   }
 }
