@@ -15,7 +15,6 @@ Description: "Stammdatendokument"
 * section[condition].entry only Reference(Diagnose)
 * section[coverage].entry only Reference(IsipVersicherungsverhaeltnisGesetzlich or IsipVersicherungsverhaeltnisPrivat)
 * section[encounter].entry only Reference(Pflegeepisode)
-* section[observation].entry only Reference(Pflegegrad)
 * section[organization].entry only Reference(IsipOrganization)
 * section[practitioner].entry only Reference(ISiPPractitioner)
 * section[practitionerRole].entry only Reference(ISiPPractitionerRole)

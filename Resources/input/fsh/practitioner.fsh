@@ -16,13 +16,13 @@ Description: "ISiPPractitioner"
   * code MS
 
 
-Profile: ISiPPractitionerRole
-Parent: PractitionerRole
-Id: ISiPPractitionerRole
-Title: "ISiPPractitionerRole"
-Description: "ISiPPractitionerRole"
-* practitioner 1..1 MS
-* practitioner only Reference(ISiPPractitioner)
-* organization MS
-* organization only Reference(IsipOrganization)
-* speciality MS
+//Profile: ISiPPractitionerRole
+//Parent: PractitionerRole
+//Id: ISiPPractitionerRole
+//Title: "ISiPPractitionerRole"
+//Description: "ISiPPractitionerRole"
+//* practitioner 1..1 MS
+//* practitioner only Reference(ISiPPractitioner)
+//* organization MS
+//* organization only Reference(IsipOrganization)
+//* specialty MS

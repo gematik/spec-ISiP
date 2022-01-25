@@ -1,7 +1,7 @@
 {
   "resourceType": "ImplementationGuide",
   "url": "https://gematik.de/fhir/ISiP/ImplementationGuide/ISiP",
-  "name": "Implementierungsleitfaden ISiP-Basismodul (Stufe 1)",
+  "name": "Implementierungsleitfaden ISiP (Stufe 1)",
   "status": "draft",
   "fhirVersion": [
     "4.0.1"

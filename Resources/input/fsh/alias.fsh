@@ -11,7 +11,9 @@ Alias: ISiKComposition = https://gematik.de/fhir/ISiK/StructureDefinition/ISiKBe
 Alias: IKNR = http://fhir.de/StructureDefinition/identifier-iknr
 Alias: BSNR = http://fhir.de/StructureDefinition/identifier-bsnr
 Alias: PflegegradDE = http://fhir.de/StructureDefinition/observation-de-pflegegrad
+Alias: $identifier-type-de-basis = http://fhir.de/CodeSystem/identifier-type-de-basis
 
 Alias: ContactPointSystem = http://hl7.org/fhir/contact-point-system
 Alias: AddressDeBasis = http://fhir.de/StructureDefinition/address-de-basis
 Alias: MaritalStatus = http://terminology.hl7.org/CodeSystem/v3-MaritalStatus
+Alias: $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203
