@@ -1,0 +1,30 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "IsipVersicherungsverhaeltnisPrivat",
+  "url": "https://gematik.de/fhir/ISiP/StructureDefinition/IsipVersicherungsverhaeltnisPrivat",
+  "version": "0.1.0",
+  "name": "IsipVersicherungsverhaeltnisPrivat",
+  "status": "active",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Coverage",
+  "baseDefinition": "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKVersicherungsverhaeltnisSelbstzahler",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Coverage.beneficiary",
+        "path": "Coverage.beneficiary",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "https://gematik.de/fhir/ISiP/StructureDefinition/isip-patient"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
