@@ -1,4 +1,4 @@
-Profile: IsipPatient
+Profile: ISiPPatient
 Parent: PatientStufe1
 Id: isip-patient
 Description: "ISiP Patient"
@@ -33,8 +33,8 @@ Description: "ISiP Patient"
 * managingOrganization MS
 * managingOrganization only Reference(IsipOrganization)
 
-Instance: IsipPatient
-InstanceOf: IsipPatient
+Instance: ISiPPatient
+InstanceOf: ISiPPatient
 Title: ""
 Description: ""
 Usage: #example

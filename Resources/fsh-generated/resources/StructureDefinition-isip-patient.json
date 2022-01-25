@@ -3,7 +3,7 @@
   "id": "isip-patient",
   "url": "https://gematik.de/fhir/ISiP/StructureDefinition/isip-patient",
   "version": "0.1.0",
-  "name": "IsipPatient",
+  "name": "ISiPPatient",
   "status": "active",
   "description": "ISiP Patient",
   "fhirVersion": "4.0.1",

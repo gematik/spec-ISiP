@@ -218,18 +218,6 @@
         "sliceName": "practitionerRole",
         "min": 0,
         "max": "*"
-      },
-      {
-        "id": "Composition.section:practitionerRole.entry",
-        "path": "Composition.section.entry",
-        "type": [
-          {
-            "code": "Reference",
-            "targetProfile": [
-              "https://gematik.de/fhir/ISiP/StructureDefinition/ISiPPractitionerRole"
-            ]
-          }
-        ]
       }
     ]
   }
