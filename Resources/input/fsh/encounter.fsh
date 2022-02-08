@@ -2,8 +2,10 @@ Profile: Pflegeepisode
 Parent: Encounter
 Id: pflegeepisode
 Title: "Pflegeepisode"
-//class&type VS? KBV?
+* class 1.. MS
+* class from EncounterClassPflegeVS
 * type 1..* MS
+* type from EncounterTypePflegeVS
 * subject 1..1 MS
 * subject only Reference (ISiPPatient)
 * period 1..1 MS

@@ -10,19 +10,7 @@ Description: "ISiPPractitioner"
   * system from KontaktArtenVS
   * value 1..1 MS
   * use 1..1 MS
-  * rank MS
 * address MS
 * qualification MS
   * code MS
-
-
-//Profile: ISiPPractitionerRole
-//Parent: PractitionerRole
-//Id: ISiPPractitionerRole
-//Title: "ISiPPractitionerRole"
-//Description: "ISiPPractitionerRole"
-//* practitioner 1..1 MS
-//* practitioner only Reference(ISiPPractitioner)
-//* organization MS
-//* organization only Reference(IsipOrganization)
-//* specialty MS
+  * code from PractitionerSpeciality

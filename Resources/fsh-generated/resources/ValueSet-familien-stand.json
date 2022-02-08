@@ -32,6 +32,15 @@
             "display": "Widowed"
           }
         ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "125681006",
+            "display": "Single"
+          }
+        ]
       }
     ]
   }

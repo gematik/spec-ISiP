@@ -10,5 +10,6 @@ publisher:
 dependencies:
   de.gematik.isik-basismodul: 
     uri: https://gematik.de/fhir/ISiK/ImplementationGuide/ISiK-basismodul
-    version: 1.0.2
-  de.basisprofil.r4: 1.1.0
+    version: 1.0.3-alpha1
+  de.basisprofil.r4: 1.2.0
+  kbv.mio.ueberleitungsbogen: 1.0.0-kommentierung

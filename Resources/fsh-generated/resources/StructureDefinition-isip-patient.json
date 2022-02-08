@@ -15,22 +15,6 @@
   "differential": {
     "element": [
       {
-        "id": "Patient.identifier:versichertennummer_kvk",
-        "path": "Patient.identifier",
-        "sliceName": "versichertennummer_kvk",
-        "min": 0,
-        "max": "1",
-        "mustSupport": true
-      },
-      {
-        "id": "Patient.identifier:versichertennummer_kvk.type",
-        "path": "Patient.identifier.type",
-        "patternCoding": {
-          "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_Base_identifier_type",
-          "code": "kvk"
-        }
-      },
-      {
         "id": "Patient.telecom",
         "path": "Patient.telecom",
         "mustSupport": true
@@ -56,26 +40,9 @@
         "mustSupport": true
       },
       {
-        "id": "Patient.telecom.rank",
-        "path": "Patient.telecom.rank",
-        "mustSupport": true
-      },
-      {
         "id": "Patient.deceased[x]",
         "path": "Patient.deceased[x]",
         "mustSupport": true
-      },
-      {
-        "id": "Patient.address",
-        "path": "Patient.address",
-        "type": [
-          {
-            "code": "Address",
-            "profile": [
-              "http://fhir.de/StructureDefinition/address-de-basis"
-            ]
-          }
-        ]
       },
       {
         "id": "Patient.maritalStatus",
@@ -87,69 +54,20 @@
         }
       },
       {
-        "id": "Patient.contact",
-        "path": "Patient.contact",
-        "mustSupport": true
-      },
-      {
-        "id": "Patient.contact.relationship",
-        "path": "Patient.contact.relationship",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "Patient.contact.name",
-        "path": "Patient.contact.name",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "Patient.contact.telecom",
-        "path": "Patient.contact.telecom",
-        "mustSupport": true
-      },
-      {
-        "id": "Patient.contact.telecom.system",
-        "path": "Patient.contact.telecom.system",
-        "min": 1,
-        "mustSupport": true,
-        "binding": {
-          "strength": "required",
-          "valueSet": "https://gematik.de/fhir/ISiP/ValueSet/kontaktarten"
-        }
-      },
-      {
-        "id": "Patient.contact.telecom.value",
-        "path": "Patient.contact.telecom.value",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "Patient.contact.telecom.use",
-        "path": "Patient.contact.telecom.use",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "Patient.contact.telecom.rank",
-        "path": "Patient.contact.telecom.rank",
-        "mustSupport": true
-      },
-      {
-        "id": "Patient.contact.address",
-        "path": "Patient.contact.address",
-        "type": [
-          {
-            "code": "Address",
-            "profile": [
-              "http://fhir.de/StructureDefinition/address-de-basis"
-            ]
-          }
-        ]
-      },
-      {
         "id": "Patient.communication",
         "path": "Patient.communication",
+        "mustSupport": true
+      },
+      {
+        "id": "Patient.communication.language",
+        "path": "Patient.communication.language",
+        "mustSupport": true
+      },
+      {
+        "id": "Patient.communication.language.coding",
+        "path": "Patient.communication.language.coding",
+        "min": 1,
+        "max": "1",
         "mustSupport": true
       },
       {
