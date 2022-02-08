@@ -10,3 +10,4 @@ Title: "Pflegeepisode"
 * subject only Reference (ISiPPatient)
 * period 1..1 MS
 * serviceProvider MS
+* serviceProvider only Reference(IsipOrganization)

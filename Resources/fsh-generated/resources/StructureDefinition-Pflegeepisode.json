@@ -88,6 +88,14 @@
       {
         "id": "Encounter.serviceProvider",
         "path": "Encounter.serviceProvider",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "https://gematik.de/fhir/ISiP/StructureDefinition/isip-organization"
+            ]
+          }
+        ],
         "mustSupport": true
       }
     ]
