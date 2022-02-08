@@ -1,0 +1,57 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "EncounterTypePflege",
+  "id": "encounter-type-pflege",
+  "title": "EncounterTypePflege",
+  "version": "0.1.0",
+  "url": "https://gematik.de/fhir/ISiP/CodeSystem/encounter-type-pflege",
+  "concept": [
+    {
+      "code": "vollstationaer",
+      "display": "Vollstationär"
+    },
+    {
+      "code": "teilstationär",
+      "display": "Teilstationär"
+    },
+    {
+      "code": "kurzzeitpflege",
+      "display": "Kurzzeitpflege"
+    },
+    {
+      "code": "verhinderungspflege",
+      "display": "Verhinderungspflege"
+    },
+    {
+      "code": "ambulante-pflege",
+      "display": "Ambulante Pflege"
+    },
+    {
+      "code": "tagespflege",
+      "display": "Tagespflege"
+    },
+    {
+      "code": "nachtpflege",
+      "display": "Nachtpflege"
+    },
+    {
+      "code": "intensivpflege",
+      "display": "Intensivpflege"
+    },
+    {
+      "code": "vollzeitpflege",
+      "display": "Vollzeitpflege"
+    },
+    {
+      "code": "palliativpflege",
+      "display": "Palliativpflege"
+    },
+    {
+      "code": "hospizpflege",
+      "display": "Hospizpflege"
+    }
+  ],
+  "count": 11
+}

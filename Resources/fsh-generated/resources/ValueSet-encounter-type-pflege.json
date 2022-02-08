@@ -1,0 +1,16 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "EncounterTypePflegeVS",
+  "id": "encounter-type-pflege",
+  "title": "EncounterTypePflege",
+  "version": "0.1.0",
+  "url": "https://gematik.de/fhir/ISiP/ValueSet/encounter-type-pflege",
+  "compose": {
+    "include": [
+      {
+        "system": "https://gematik.de/fhir/ISiP/CodeSystem/encounter-type-pflege"
+      }
+    ]
+  }
+}
