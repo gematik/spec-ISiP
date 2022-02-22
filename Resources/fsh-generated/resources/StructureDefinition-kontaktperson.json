@@ -32,7 +32,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "https://fhir.kbv.de/ValueSet/KBV_VS_MIO_ULB_Role_Contact_Person"
+          "valueSet": "http://terminology.hl7.org/ValueSet/v2-0063"
         }
       },
       {

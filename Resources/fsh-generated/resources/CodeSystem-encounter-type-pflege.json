@@ -9,20 +9,8 @@
   "url": "https://gematik.de/fhir/ISiP/CodeSystem/encounter-type-pflege",
   "concept": [
     {
-      "code": "vollstationaer",
-      "display": "Vollstationär"
-    },
-    {
-      "code": "teilstationär",
-      "display": "Teilstationär"
-    },
-    {
       "code": "kurzzeitpflege",
       "display": "Kurzzeitpflege"
-    },
-    {
-      "code": "verhinderungspflege",
-      "display": "Verhinderungspflege"
     },
     {
       "code": "ambulante-pflege",
@@ -53,5 +41,5 @@
       "display": "Hospizpflege"
     }
   ],
-  "count": 11
+  "count": 8
 }

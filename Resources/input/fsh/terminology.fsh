@@ -1,10 +1,10 @@
 CodeSystem: EncounterTypePflege
 Id: encounter-type-pflege
 Title: "EncounterTypePflege"
-* #vollstationaer "Vollstationär"
-* #teilstationär "Teilstationär"
+//* #vollstationaer "Vollstationär"
+//* #teilstationär "Teilstationär"
 * #kurzzeitpflege "Kurzzeitpflege"
-* #verhinderungspflege "Verhinderungspflege"
+//* #verhinderungspflege "Verhinderungspflege"
 * #ambulante-pflege "Ambulante Pflege"
 * #tagespflege "Tagespflege"
 * #nachtpflege "Nachtpflege"
@@ -26,10 +26,8 @@ Title: "Familienstand des Pflegeempfangenden"
 * MaritalStatus#M "Married"
 * MaritalStatus#D "Divorced"
 * MaritalStatus#T "Domestic partner"
-//NEU
 * MaritalStatus#U "unmarried"
 * MaritalStatus#W "Widowed"
-* SCT#125681006 "Single"
 
 ValueSet: EncounterClassPflegeVS
 Id: encounter-class-pflege
