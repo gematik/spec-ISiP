@@ -16,7 +16,7 @@ Alias: $identifier-type-de-basis = http://fhir.de/CodeSystem/identifier-type-de-
 //KBV ULB:
 Alias: OrgTypeVS = https://fhir.kbv.de/ValueSet/KBV_VS_MIO_ULB_Type_Of_Facility
 Alias: PractitionerSpeciality = https://fhir.kbv.de/ValueSet/KBV_VS_Base_Practitioner_Speciality
-Alias: KontaktPersonRolle = https://fhir.kbv.de/ValueSet/KBV_VS_MIO_ULB_Role_Contact_Person
+Alias: KontaktPersonRolle = http://terminology.hl7.org/ValueSet/v2-0063
 
 // FHIR core
 Alias: ContactPointSystem = http://hl7.org/fhir/contact-point-system
