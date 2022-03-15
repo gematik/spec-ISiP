@@ -1,0 +1,42 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "EncounterServiceTypePflegeVS",
+  "id": "encounter-serviceType-pflege",
+  "title": "EncounterTypePflege",
+  "version": "0.1.0",
+  "url": "https://gematik.de/fhir/ISiP/ValueSet/encounter-serviceType-pflege",
+  "compose": {
+    "include": [
+      {
+        "system": "https://gematik.de/fhir/ISiP/CodeSystem/encounter-type-pflege",
+        "concept": [
+          {
+            "code": "intensivpflege",
+            "display": "Intensivpflege"
+          },
+          {
+            "code": "palliativpflege",
+            "display": "Palliativpflege"
+          },
+          {
+            "code": "behindertenpflege",
+            "display": "Behindertenpflege"
+          },
+          {
+            "code": "rehabilitationspflege",
+            "display": "Rehabilitationspflege"
+          },
+          {
+            "code": "psychatrischepflege",
+            "display": "Psychiatrische Pflege"
+          },
+          {
+            "code": "allgemeinepflege",
+            "display": "Allgemeine Pflege"
+          }
+        ]
+      }
+    ]
+  }
+}

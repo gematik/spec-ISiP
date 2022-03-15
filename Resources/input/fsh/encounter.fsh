@@ -6,6 +6,8 @@ Title: "Pflegeepisode"
 * class from EncounterClassPflegeVS
 * type 1..* MS
 * type from EncounterTypePflegeVS (extensible)
+* serviceType MS
+* serviceType from EncounterServiceTypePflegeVS (extensible)
 * subject 1..1 MS
 * subject only Reference (ISiPPatient)
 * period 1..1 MS
