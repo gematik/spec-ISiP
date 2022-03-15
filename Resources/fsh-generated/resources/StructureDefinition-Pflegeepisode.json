@@ -66,6 +66,15 @@
         }
       },
       {
+        "id": "Encounter.serviceType",
+        "path": "Encounter.serviceType",
+        "mustSupport": true,
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "https://gematik.de/fhir/ISiP/ValueSet/encounter-serviceType-pflege"
+        }
+      },
+      {
         "id": "Encounter.subject",
         "path": "Encounter.subject",
         "min": 1,
