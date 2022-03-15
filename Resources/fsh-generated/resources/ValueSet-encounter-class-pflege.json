@@ -23,6 +23,10 @@
           {
             "code": "HH",
             "display": "home health"
+          },
+          {
+            "code": "SS",
+            "display": "short stay"
           }
         ]
       }

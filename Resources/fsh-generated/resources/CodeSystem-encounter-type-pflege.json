@@ -37,9 +37,13 @@
       "display": "Palliativpflege"
     },
     {
-      "code": "hospizpflege",
-      "display": "Hospizpflege"
+      "code": "behindertenpflege",
+      "display": "Behindertenpflege"
+    },
+    {
+      "code": "rehabilitationspflege",
+      "display": "Rehabilitationspflege"
     }
   ],
-  "count": 8
+  "count": 9
 }
