@@ -1,15 +1,16 @@
 CodeSystem: EncounterTypePflege
 Id: encounter-type-pflege
 Title: "EncounterTypePflege"
-* #kurzzeitpflege "Kurzzeitpflege"
-* #ambulante-pflege "Ambulante Pflege"
-* #tagespflege "Tagespflege"
-* #nachtpflege "Nachtpflege"
+* #langzeitpflege "Langzeitpflege"
+* #akutPflege "Akutpflege"
+
+ServiceType:
 * #intensivpflege "Intensivpflege"
-* #vollzeitpflege "Vollzeitpflege"
 * #palliativpflege "Palliativpflege"
 * #behindertenpflege "Behindertenpflege"
 * #rehabilitationspflege "Rehabilitationspflege"
+* #psychatrischepflege "Psychiatrische Pflege"
+* #allgemeinepflege "Allgemeine Pflege"
 
 ValueSet: KontaktArtenVS
 Id: kontaktarten
