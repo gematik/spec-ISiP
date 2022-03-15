@@ -1,17 +1,15 @@
 CodeSystem: EncounterTypePflege
 Id: encounter-type-pflege
 Title: "EncounterTypePflege"
-//* #vollstationaer "Vollstationär"
-//* #teilstationär "Teilstationär"
 * #kurzzeitpflege "Kurzzeitpflege"
-//* #verhinderungspflege "Verhinderungspflege"
 * #ambulante-pflege "Ambulante Pflege"
 * #tagespflege "Tagespflege"
 * #nachtpflege "Nachtpflege"
 * #intensivpflege "Intensivpflege"
 * #vollzeitpflege "Vollzeitpflege"
 * #palliativpflege "Palliativpflege"
-* #hospizpflege "Hospizpflege"
+* #behindertenpflege "Behindertenpflege"
+* #rehabilitationspflege "Rehabilitationspflege"
 
 ValueSet: KontaktArtenVS
 Id: kontaktarten
@@ -36,6 +34,7 @@ Description: "Fallarten und Patientenstatus zur Codierung von Encounter.class"
 * $v3-ActCode#AMB "ambulatory"
 * $v3-ActCode#IMP "inpatient encounter"
 * $v3-ActCode#HH "home health"
+* $v3-ActCode#SS "short stay"
 
 ValueSet: EncounterTypePflegeVS
 Id: encounter-type-pflege

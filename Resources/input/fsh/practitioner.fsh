@@ -3,8 +3,7 @@ Parent: PractitionerStufe1
 Id: isip-practitioner
 Title: "ISiPPractitioner"
 Description: "ISiPPractitioner"
-//BSNR ??? --> per Organization verlinken+
-* active MS 
+* active MS
 * telecom MS
   * system 1..1 MS
   * system from KontaktArtenVS
