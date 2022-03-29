@@ -1,10 +1,8 @@
-CodeSystem: EncounterTypePflege
+CodeSystem: EncounterPflegeArten
 Id: encounter-type-pflege
 Title: "EncounterTypePflege"
 * #langzeitpflege "Langzeitpflege"
 * #akutPflege "Akutpflege"
-
-ServiceType:
 * #intensivpflege "Intensivpflege"
 * #palliativpflege "Palliativpflege"
 * #behindertenpflege "Behindertenpflege"
@@ -40,4 +38,15 @@ Description: "Fallarten und Patientenstatus zur Codierung von Encounter.class"
 ValueSet: EncounterTypePflegeVS
 Id: encounter-type-pflege
 Title: "EncounterTypePflege"
-* include codes from system EncounterTypePflege
+* EncounterPflegeArten#langzeitpflege "Langzeitpflege"
+* EncounterPflegeArten#akutPflege "Akutpflege"
+
+ValueSet: EncounterServiceTypePflegeVS
+Id: encounter-serviceType-pflege
+Title: "EncounterTypePflege"
+* EncounterPflegeArten#intensivpflege "Intensivpflege"
+* EncounterPflegeArten#palliativpflege "Palliativpflege"
+* EncounterPflegeArten#behindertenpflege "Behindertenpflege"
+* EncounterPflegeArten#rehabilitationspflege "Rehabilitationspflege"
+* EncounterPflegeArten#psychatrischepflege "Psychiatrische Pflege"
+* EncounterPflegeArten#allgemeinepflege "Allgemeine Pflege"

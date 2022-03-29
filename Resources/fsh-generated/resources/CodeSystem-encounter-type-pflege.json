@@ -2,35 +2,23 @@
   "resourceType": "CodeSystem",
   "status": "active",
   "content": "complete",
-  "name": "EncounterTypePflege",
+  "name": "EncounterPflegeArten",
   "id": "encounter-type-pflege",
   "title": "EncounterTypePflege",
   "version": "0.1.0",
   "url": "https://gematik.de/fhir/ISiP/CodeSystem/encounter-type-pflege",
   "concept": [
     {
-      "code": "kurzzeitpflege",
-      "display": "Kurzzeitpflege"
+      "code": "langzeitpflege",
+      "display": "Langzeitpflege"
     },
     {
-      "code": "ambulante-pflege",
-      "display": "Ambulante Pflege"
-    },
-    {
-      "code": "tagespflege",
-      "display": "Tagespflege"
-    },
-    {
-      "code": "nachtpflege",
-      "display": "Nachtpflege"
+      "code": "akutPflege",
+      "display": "Akutpflege"
     },
     {
       "code": "intensivpflege",
       "display": "Intensivpflege"
-    },
-    {
-      "code": "vollzeitpflege",
-      "display": "Vollzeitpflege"
     },
     {
       "code": "palliativpflege",
@@ -43,7 +31,15 @@
     {
       "code": "rehabilitationspflege",
       "display": "Rehabilitationspflege"
+    },
+    {
+      "code": "psychatrischepflege",
+      "display": "Psychiatrische Pflege"
+    },
+    {
+      "code": "allgemeinepflege",
+      "display": "Allgemeine Pflege"
     }
   ],
-  "count": 9
+  "count": 8
 }
