@@ -1,16 +1,6 @@
 {
   "resourceType": "StructureDefinition",
   "id": "pflegeepisode",
-  "extension": [
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
-      "valueString": "Base.Management"
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
-      "valueCode": "patient"
-    }
-  ],
   "url": "https://gematik.de/fhir/ISiP/StructureDefinition/pflegeepisode",
   "version": "0.1.0",
   "name": "Pflegeepisode",
@@ -42,14 +32,13 @@
   "kind": "resource",
   "abstract": false,
   "type": "Encounter",
-  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Encounter",
+  "baseDefinition": "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKontaktGesundheitseinrichtung",
   "derivation": "constraint",
   "differential": {
     "element": [
       {
         "id": "Encounter.class",
         "path": "Encounter.class",
-        "mustSupport": true,
         "binding": {
           "strength": "required",
           "valueSet": "https://gematik.de/fhir/ISiP/ValueSet/encounter-class-pflege"
@@ -59,7 +48,6 @@
         "id": "Encounter.type",
         "path": "Encounter.type",
         "min": 1,
-        "mustSupport": true,
         "binding": {
           "strength": "extensible",
           "valueSet": "https://gematik.de/fhir/ISiP/ValueSet/encounter-type-pflege"
@@ -68,7 +56,6 @@
       {
         "id": "Encounter.serviceType",
         "path": "Encounter.serviceType",
-        "mustSupport": true,
         "binding": {
           "strength": "extensible",
           "valueSet": "https://gematik.de/fhir/ISiP/ValueSet/encounter-serviceType-pflege"
@@ -77,7 +64,6 @@
       {
         "id": "Encounter.subject",
         "path": "Encounter.subject",
-        "min": 1,
         "type": [
           {
             "code": "Reference",
@@ -85,14 +71,7 @@
               "https://gematik.de/fhir/ISiP/StructureDefinition/isip-patient"
             ]
           }
-        ],
-        "mustSupport": true
-      },
-      {
-        "id": "Encounter.period",
-        "path": "Encounter.period",
-        "min": 1,
-        "mustSupport": true
+        ]
       },
       {
         "id": "Encounter.serviceProvider",
@@ -104,8 +83,7 @@
               "https://gematik.de/fhir/ISiP/StructureDefinition/isip-organization"
             ]
           }
-        ],
-        "mustSupport": true
+        ]
       }
     ]
   }

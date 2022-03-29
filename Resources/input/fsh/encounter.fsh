@@ -1,5 +1,5 @@
 Profile: Pflegeepisode
-Parent: Encounter
+Parent: EncounterIsikStufe1
 Id: pflegeepisode
 Title: "Pflegeepisode"
 * class 1.. MS
