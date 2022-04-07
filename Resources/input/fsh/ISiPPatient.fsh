@@ -70,3 +70,14 @@ Usage: #example
 * address[=].city = "Musterhausen"
 * address[=].postalCode = "98764"
 * address[=].country = "DE"
+* telecom[+]
+  * system = ContactPointSystem#phone
+  * value = "+49 132 455 325"
+  * use = #home
+* deceasedDateTime = "2022-02-14T13:42:00+01:00"
+* maritalStatus = MaritalStatus#M "Married"
+* communication[+]
+  * language = $bcp47#de "German"
+  * preferred = true
+//generalPractitioner
+//managingOrganization
