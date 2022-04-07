@@ -13,7 +13,7 @@ Realm: Deutschland
 
 # Interoperabler Datenaustausch durch Informationstechnische Systeme in der Pflege (ISiP)
 
-Das Projekt Informationstechnische Systeme in der Pflege - ISiP - soll Arbeitsprozesse innerhalb von Pflegeeinrichtungen sinnvoll digital unterstützen. Konkret soll der gesetzliche Auftrag aus den §§ [371](https://dejure.org/gesetze/SGB_V/371.html) und [373](https://dejure.org/gesetze/SGB_V/373.html) SGB-V umgesetzt werden. Daraus ergeben sich folgende essenzielle fachliche Anforderungen:
+Das Projekt Informationstechnische Systeme in der Pflege - ISiP - soll Arbeitsprozesse innerhalb von Pflegeeinrichtungen sinnvoll digital unterstützen. Konkret soll der gesetzliche Auftrag aus den [§ 371](https://dejure.org/gesetze/SGB_V/371.html) und [§ 373](https://dejure.org/gesetze/SGB_V/373.html) SGB-V umgesetzt werden. Daraus ergeben sich folgende essenzielle fachliche Anforderungen:
 
 Nach [§ 373](https://dejure.org/gesetze/SGB_V/373.html) Absatz 3 soll die gematik für die in [§ 371](https://dejure.org/gesetze/SGB_V/371.html[) Absatz 1, Satz 1 und 4, grob definierten informationstechnischen Systeme in der Pflege:
 
