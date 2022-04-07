@@ -51,7 +51,7 @@
         "slicing": {
           "discriminator": [
             {
-              "type": "pattern",
+fixed              "type": "profile",
               "path": "type"
             }
           ],
