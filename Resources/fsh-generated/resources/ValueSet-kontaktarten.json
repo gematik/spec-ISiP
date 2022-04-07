@@ -4,7 +4,7 @@
   "name": "KontaktArtenVS",
   "id": "kontaktarten",
   "title": "Kontaktarten in ISiP",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha1",
   "url": "https://gematik.de/fhir/ISiP/ValueSet/kontaktarten",
   "compose": {
     "include": [
