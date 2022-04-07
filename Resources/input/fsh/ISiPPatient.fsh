@@ -1,6 +1,5 @@
 Profile: ISiPPatient
 Parent: PatientStufe1
-Id: isip-patient
 Description: "ISiP Patient"
 * telecom MS
   * system 1..1 MS

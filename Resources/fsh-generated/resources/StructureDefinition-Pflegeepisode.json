@@ -67,7 +67,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "https://gematik.de/fhir/ISiP/StructureDefinition/isip-patient"
+              "https://gematik.de/fhir/ISiP/StructureDefinition/ISiPPatient"
             ]
           }
         ]
