@@ -2,7 +2,7 @@ id: de.gematik.isip
 canonical: https://gematik.de/fhir/ISiP
 name: ISIP
 status: draft
-version: 1.0.0
+version: 1.0.0-alpha1
 fhirVersion: 4.0.1
 FSHOnly: true
 publisher:
