@@ -4,7 +4,6 @@
   "url": "https://gematik.de/fhir/ISiP/StructureDefinition/kontaktperson",
   "version": "0.1.0",
   "name": "KontaktPerson",
-  "title": "KontaktPerson",
   "status": "active",
   "fhirVersion": "4.0.1",
   "kind": "resource",

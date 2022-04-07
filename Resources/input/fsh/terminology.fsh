@@ -33,7 +33,6 @@ Description: "Fallarten und Patientenstatus zur Codierung von Encounter.class"
 * $v3-ActCode#AMB "ambulatory"
 * $v3-ActCode#IMP "inpatient encounter"
 * $v3-ActCode#HH "home health"
-* $v3-ActCode#SS "short stay"
 
 ValueSet: EncounterTypePflegeVS
 Id: encounter-type-pflege

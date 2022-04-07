@@ -14,8 +14,8 @@ Alias: PflegegradDE = http://fhir.de/StructureDefinition/observation-de-pflegegr
 Alias: $identifier-type-de-basis = http://fhir.de/CodeSystem/identifier-type-de-basis
 
 //KBV ULB:
-Alias: OrgTypeVS = https://fhir.kbv.de/ValueSet/KBV_VS_MIO_ULB_Type_Of_Facility
-Alias: PractitionerSpeciality = https://fhir.kbv.de/ValueSet/KBV_VS_Base_Practitioner_Speciality
+Alias: OrgTypeKBV-VS = https://fhir.kbv.de/ValueSet/KBV_VS_MIO_ULB_Type_Of_Facility
+Alias: PractitionerSpecialityKBV = https://fhir.kbv.de/ValueSet/KBV_VS_Base_Practitioner_Speciality
 Alias: KontaktPersonRolle = http://terminology.hl7.org/ValueSet/v2-0063
 
 // FHIR core
