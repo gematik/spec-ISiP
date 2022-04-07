@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "kontaktperson",
   "url": "https://gematik.de/fhir/ISiP/StructureDefinition/kontaktperson",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "name": "KontaktPerson",
   "status": "active",
   "fhirVersion": "4.0.1",
