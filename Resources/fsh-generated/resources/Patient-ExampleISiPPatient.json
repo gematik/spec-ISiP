@@ -101,7 +101,9 @@
   "maritalStatus": {
     "coding": [
       {
-        "code": "M"
+        "code": "M",
+        "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+        "display": "Married"
       }
     ]
   },
@@ -158,6 +160,28 @@
       "city": "Musterhausen",
       "postalCode": "98764",
       "country": "DE"
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "+49 132 455 325",
+      "use": "home"
+    }
+  ],
+  "deceasedDateTime": "2022-02-14T13:42:00+01:00",
+  "communication": [
+    {
+      "language": {
+        "coding": [
+          {
+            "code": "de",
+            "system": "http://tools.ietf.org/html/bcp47",
+            "display": "German"
+          }
+        ]
+      },
+      "preferred": true
     }
   ]
 }

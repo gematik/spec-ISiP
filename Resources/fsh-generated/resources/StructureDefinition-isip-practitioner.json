@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "isip-practitioner",
   "url": "https://gematik.de/fhir/ISiP/StructureDefinition/isip-practitioner",
-  "version": "1.0.0-alpha1",
+  "version": "1.0.0-ballot",
   "name": "ISiPPractitioner",
   "status": "active",
   "fhirVersion": "4.0.1",

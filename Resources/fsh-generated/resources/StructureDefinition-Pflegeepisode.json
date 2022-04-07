@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "pflegeepisode",
   "url": "https://gematik.de/fhir/ISiP/StructureDefinition/pflegeepisode",
-  "version": "1.0.0-alpha1",
+  "version": "1.0.0-ballot",
   "name": "Pflegeepisode",
   "status": "active",
   "fhirVersion": "4.0.1",

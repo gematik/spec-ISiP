@@ -4,7 +4,7 @@
   "name": "EncounterClassPflegeVS",
   "id": "encounter-class-pflege",
   "description": "Fallarten und Patientenstatus zur Codierung von Encounter.class",
-  "version": "1.0.0-alpha1",
+  "version": "1.0.0-ballot",
   "url": "https://gematik.de/fhir/ISiP/ValueSet/encounter-class-pflege",
   "compose": {
     "include": [
