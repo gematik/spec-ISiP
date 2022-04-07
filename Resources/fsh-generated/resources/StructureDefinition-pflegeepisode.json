@@ -1,7 +1,17 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "pflegeepisode",
-  "url": "https://gematik.de/fhir/ISiP/StructureDefinition/pflegeepisode",
+  "id": "Pflegeepisode",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Base.Management"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "patient"
+    }
+  ],
+  "url": "https://gematik.de/fhir/ISiP/StructureDefinition/Pflegeepisode",
   "version": "1.0.0-ballot",
   "name": "Pflegeepisode",
   "status": "active",
@@ -31,7 +41,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Encounter",
-  "baseDefinition": "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKontaktGesundheitseinrichtung",
+  "baseDefinition": "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKontaktGesundheitseinrichtung",
   "derivation": "constraint",
   "differential": {
     "element": [
@@ -46,7 +56,15 @@
       {
         "id": "Encounter.type",
         "path": "Encounter.type",
+        "min": 2
+      },
+      {
+        "id": "Encounter.type:Pflegeepisodentyp",
+        "path": "Encounter.type",
+        "sliceName": "Pflegeepisodentyp",
         "min": 1,
+        "max": "1",
+        "mustSupport": true,
         "binding": {
           "strength": "extensible",
           "valueSet": "https://gematik.de/fhir/ISiP/ValueSet/encounter-type-pflege"
@@ -55,6 +73,7 @@
       {
         "id": "Encounter.serviceType",
         "path": "Encounter.serviceType",
+        "min": 1,
         "binding": {
           "strength": "extensible",
           "valueSet": "https://gematik.de/fhir/ISiP/ValueSet/encounter-serviceType-pflege"
@@ -67,7 +86,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "https://gematik.de/fhir/ISiP/StructureDefinition/ISiPPatient"
+              "https://gematik.de/fhir/ISiP/StructureDefinition/ISiPPflegeempfaenger"
             ]
           }
         ]

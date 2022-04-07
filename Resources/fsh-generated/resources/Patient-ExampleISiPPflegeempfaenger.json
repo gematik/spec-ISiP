@@ -1,9 +1,9 @@
 {
   "resourceType": "Patient",
-  "id": "ExampleISiPPatient",
+  "id": "ExampleISiPPflegeempfaenger",
   "meta": {
     "profile": [
-      "https://gematik.de/fhir/ISiP/StructureDefinition/ISiPPatient"
+      "https://gematik.de/fhir/ISiP/StructureDefinition/ISiPPflegeempfaenger"
     ]
   },
   "identifier": [

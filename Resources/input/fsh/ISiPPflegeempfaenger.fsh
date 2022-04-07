@@ -1,6 +1,6 @@
-Profile: ISiPPatient
-Parent: PatientStufe1
-Description: "ISiP Patient"
+Profile: ISiPPflegeempfaenger
+Parent: ISiKPatient
+Description: "ISiP Pflegeempfänger"
 * telecom MS
   * system 1..1 MS
   * system from KontaktArtenVS
@@ -13,12 +13,12 @@ Description: "ISiP Patient"
   * language MS
     * coding 1..1 MS
 * generalPractitioner MS
-* generalPractitioner only Reference(ISiPPractitioner)
+* generalPractitioner only Reference(ISiPPersonImGesundheitswesen)
 * managingOrganization MS
 * managingOrganization only Reference(IsipOrganization)
 
-Instance: ExampleISiPPatient
-InstanceOf: ISiPPatient
+Instance: ExampleISiPPflegeempfaenger
+InstanceOf: ISiPPflegeempfaenger
 Usage: #example
 * identifier[0].type = $identifier-type-de-basis#GKV
 * identifier[=].system = "http://fhir.de/sid/gkv/kvid-10"

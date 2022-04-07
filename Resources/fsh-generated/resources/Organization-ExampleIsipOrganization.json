@@ -1,0 +1,28 @@
+{
+  "resourceType": "Organization",
+  "id": "ExampleIsipOrganization",
+  "meta": {
+    "profile": [
+      "https://gematik.de/fhir/ISiP/StructureDefinition/IsipOrganization"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://fhir.de/StructureDefinition/identifier-telematik-id",
+      "value": "1234567890"
+    }
+  ],
+  "active": true,
+  "name": "Haus am See",
+  "type": [
+    {
+      "coding": [
+        {
+          "code": "42665001",
+          "system": "http://snomed.info/sct",
+          "display": "Nursing home (environment)"
+        }
+      ]
+    }
+  ]
+}

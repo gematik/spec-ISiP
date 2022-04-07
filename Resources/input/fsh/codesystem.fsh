@@ -1,6 +1,4 @@
 CodeSystem: EncounterPflegeArten
-Id: encounter-type-pflege
-Title: "EncounterTypePflege"
 * #langzeitpflege "Langzeitpflege"
 * #akutPflege "Akutpflege"
 * #intensivpflege "Intensivpflege"

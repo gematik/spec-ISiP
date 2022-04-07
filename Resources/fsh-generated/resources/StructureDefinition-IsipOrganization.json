@@ -93,6 +93,22 @@
         "mustSupport": true
       },
       {
+        "id": "Organization.identifier:TelematikId",
+        "path": "Organization.identifier",
+        "sliceName": "TelematikId",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Identifier",
+            "profile": [
+              "http://fhir.de/StructureDefinition/identifier-telematik-id"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
         "id": "Organization.active",
         "path": "Organization.active",
         "mustSupport": true

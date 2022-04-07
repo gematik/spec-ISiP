@@ -1,15 +1,47 @@
 {
   "resourceType": "StructureDefinition",
   "id": "isip-practitioner",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Base.Individuals"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "individual"
+    }
+  ],
   "url": "https://gematik.de/fhir/ISiP/StructureDefinition/isip-practitioner",
   "version": "1.0.0-ballot",
-  "name": "ISiPPractitioner",
+  "name": "ISiPPersonImGesundheitswesen",
   "status": "active",
   "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "servd",
+      "uri": "http://www.omg.org/spec/ServD/1.0/",
+      "name": "ServD"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    }
+  ],
   "kind": "resource",
   "abstract": false,
   "type": "Practitioner",
-  "baseDefinition": "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKPersonImGesundheitsberuf",
+  "baseDefinition": "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKPersonImGesundheitsberuf",
   "derivation": "constraint",
   "differential": {
     "element": [
@@ -41,11 +73,6 @@
         "id": "Practitioner.telecom.use",
         "path": "Practitioner.telecom.use",
         "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "Practitioner.address",
-        "path": "Practitioner.address",
         "mustSupport": true
       },
       {

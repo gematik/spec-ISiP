@@ -3,10 +3,9 @@
   "status": "active",
   "content": "complete",
   "name": "EncounterPflegeArten",
-  "id": "encounter-type-pflege",
-  "title": "EncounterTypePflege",
+  "id": "EncounterPflegeArten",
   "version": "1.0.0-ballot",
-  "url": "https://gematik.de/fhir/ISiP/CodeSystem/encounter-type-pflege",
+  "url": "https://gematik.de/fhir/ISiP/CodeSystem/EncounterPflegeArten",
   "concept": [
     {
       "code": "langzeitpflege",
