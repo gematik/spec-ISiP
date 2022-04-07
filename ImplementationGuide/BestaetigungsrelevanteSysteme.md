@@ -5,7 +5,5 @@ Bestätigungsrelevant im Kontext von ISiP Stufe 1 sind alle Softwareprodukte, di
 Liste 1:
 
 - Patient/in (Patient)
-- Fall (Encounter)
-- Versicherungsverhältnis (Coverage)
-- Organization
-- Practitioner
+- Pflegeepisode (Encounter)
+- Person im Gesundheitsberuf (Practitioner)

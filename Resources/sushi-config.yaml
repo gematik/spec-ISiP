@@ -12,4 +12,4 @@ dependencies:
     uri: https://gematik.de/fhir/ISiK/ImplementationGuide/ISiK-basismodul
     version: 1.0.3
   de.basisprofil.r4: 1.2.0
-  kbv.mio.ueberleitungsbogen: 1.0.0-kommentierung
+#  kbv.mio.ueberleitungsbogen: 1.0.0-kommentierung

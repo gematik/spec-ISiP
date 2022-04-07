@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "isip-patient",
   "url": "https://gematik.de/fhir/ISiP/StructureDefinition/isip-patient",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha1",
   "name": "ISiPPatient",
   "status": "active",
   "description": "ISiP Patient",
