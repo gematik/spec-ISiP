@@ -1,15 +1,3 @@
-CodeSystem: EncounterPflegeArten
-Id: encounter-type-pflege
-Title: "EncounterTypePflege"
-* #langzeitpflege "Langzeitpflege"
-* #akutPflege "Akutpflege"
-* #intensivpflege "Intensivpflege"
-* #palliativpflege "Palliativpflege"
-* #behindertenpflege "Behindertenpflege"
-* #rehabilitationspflege "Rehabilitationspflege"
-* #psychatrischepflege "Psychiatrische Pflege"
-* #allgemeinepflege "Allgemeine Pflege"
-
 ValueSet: KontaktArtenVS
 Id: kontaktarten
 Title: "Kontaktarten in ISiP"
@@ -28,7 +16,6 @@ Title: "Familienstand des Pflegeempfangenden"
 
 ValueSet: EncounterClassPflegeVS
 Id: encounter-class-pflege
-Title: "EncounterClassDE"
 Description: "Fallarten und Patientenstatus zur Codierung von Encounter.class"
 * $v3-ActCode#AMB "ambulatory"
 * $v3-ActCode#IMP "inpatient encounter"
@@ -36,13 +23,11 @@ Description: "Fallarten und Patientenstatus zur Codierung von Encounter.class"
 
 ValueSet: EncounterTypePflegeVS
 Id: encounter-type-pflege
-Title: "EncounterTypePflege"
 * EncounterPflegeArten#langzeitpflege "Langzeitpflege"
 * EncounterPflegeArten#akutPflege "Akutpflege"
 
 ValueSet: EncounterServiceTypePflegeVS
 Id: encounter-serviceType-pflege
-Title: "EncounterTypePflege"
 * EncounterPflegeArten#intensivpflege "Intensivpflege"
 * EncounterPflegeArten#palliativpflege "Palliativpflege"
 * EncounterPflegeArten#behindertenpflege "Behindertenpflege"
