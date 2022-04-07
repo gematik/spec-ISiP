@@ -1,7 +1,7 @@
 {
   "resourceType": "ImplementationGuide",
   "url": "https://gematik.de/fhir/ISiP/ImplementationGuide/ISiP",
-  "name": "Implementierungsleitfaden ISiP (Stufe 1)",
+  "name": "Implementierungsleitfaden ISiP",
   "status": "draft",
   "fhirVersion": [
     "4.0.1"
@@ -75,11 +75,6 @@
               "title": "Patient (Patient)",
               "generation": "markdown",
               "page": [
-                {
-                  "nameUrl": "ImplementationGuide/Patient_Motivation.md",
-                  "title": "Motivation",
-                  "generation": "markdown"
-                },
                 {
                   "nameUrl": "ImplementationGuide/Patient_Kompatibilitaet.md",
                   "title": "Kompatibilität",
