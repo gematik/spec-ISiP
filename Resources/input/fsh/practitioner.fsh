@@ -1,8 +1,6 @@
 Profile: ISiPPractitioner
 Parent: PractitionerStufe1
 Id: isip-practitioner
-Title: "ISiPPractitioner"
-Description: "ISiPPractitioner"
 * active MS
 * telecom MS
   * system 1..1 MS
@@ -12,4 +10,4 @@ Description: "ISiPPractitioner"
 * address MS
 * qualification MS
   * code MS
-  * code from PractitionerSpeciality
+  * code from PractitionerSpecialityKBV

@@ -20,8 +20,6 @@ Description: "ISiP Patient"
 
 Instance: ISiPPatient
 InstanceOf: ISiPPatient
-Title: ""
-Description: ""
 Usage: #example
 * identifier[0].type = $identifier-type-de-basis#GKV
 * identifier[=].system = "http://fhir.de/sid/gkv/kvid-10"

@@ -1,7 +1,5 @@
 Profile: IsipOrganization
 Parent: Organization
-Id: isip-organization
-Title: "IsipOrganization"
 * identifier 1..* MS
 * identifier ^slicing.discriminator.type = #pattern
 * identifier ^slicing.discriminator.path = "type"
@@ -11,7 +9,7 @@ Title: "IsipOrganization"
 * identifier[Betriebsstaettennummer] only BSNR
 * active MS
 * type 1.. MS
-* type from OrgTypeVS
+* type from OrgTypeKBV-VS
 * name 1..1 MS
 * telecom MS
   * system 1..1 MS

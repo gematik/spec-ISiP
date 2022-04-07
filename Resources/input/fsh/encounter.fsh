@@ -1,7 +1,6 @@
 Profile: Pflegeepisode
 Parent: EncounterIsikStufe1
 Id: pflegeepisode
-Title: "Pflegeepisode"
 * class 1.. MS
 * class from EncounterClassPflegeVS
 * type 1..* MS

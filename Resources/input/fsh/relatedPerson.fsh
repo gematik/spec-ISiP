@@ -1,7 +1,6 @@
 Profile: KontaktPerson
 Parent: ISiKAngehoeriger
 Id: kontaktperson
-Title: "KontaktPerson"
 * patient only Reference(ISiPPatient)
 * relationship MS
 * relationship from KontaktPersonRolle

@@ -90,7 +90,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "https://gematik.de/fhir/ISiP/StructureDefinition/isip-organization"
+              "https://gematik.de/fhir/ISiP/StructureDefinition/IsipOrganization"
             ]
           }
         ],
