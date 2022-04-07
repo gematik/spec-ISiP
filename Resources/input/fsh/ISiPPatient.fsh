@@ -18,7 +18,7 @@ Description: "ISiP Patient"
 * managingOrganization MS
 * managingOrganization only Reference(IsipOrganization)
 
-Instance: ISiPPatient
+Instance: ExampleISiPPatient
 InstanceOf: ISiPPatient
 Usage: #example
 * identifier[0].type = $identifier-type-de-basis#GKV
