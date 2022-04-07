@@ -1,5 +1,5 @@
-Profile: ISiPPractitioner
-Parent: PractitionerStufe1
+Profile: ISiPPersonImGesundheitswesen
+Parent: ISiKPractitioner
 Id: isip-practitioner
 * active MS
 * telecom MS

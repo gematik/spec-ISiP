@@ -8,7 +8,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://gematik.de/fhir/ISiP/CodeSystem/encounter-type-pflege",
+        "system": "https://gematik.de/fhir/ISiP/CodeSystem/EncounterPflegeArten",
         "concept": [
           {
             "code": "intensivpflege",

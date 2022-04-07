@@ -1,6 +1,6 @@
 {
   "resourceType": "ImplementationGuide",
-  "url": "https://gematik.de/fhir/ISiP/ImplementationGuide/ISiP",
+  "url": "https://gematik.de/fhir/ISiP/ImplementationGuide/markdown/ISiP",
   "name": "Implementierungsleitfaden ISiP",
   "status": "draft",
   "fhirVersion": [
@@ -9,94 +9,94 @@
   "packageId": "de.gematik.isip-basismodul",
   "definition": {
     "page": {
-      "nameUrl": "ImplementationGuide/Einfuehrung.md",
+      "nameUrl": "ImplementationGuide/markdown/Einfuehrung.md",
       "title": "Einführung",
       "generation": "markdown",
       "page": [
         {
-          "nameUrl": "ImplementationGuide/Motivation.md",
+          "nameUrl": "ImplementationGuide/markdown/Motivation.md",
           "title": "Motivation",
           "generation": "markdown"
         },
         {
-          "nameUrl": "ImplementationGuide/UebergreifendeFestlegungen.md",
+          "nameUrl": "ImplementationGuide/markdown/UebergreifendeFestlegungen.md",
           "title": "Übergreifende Festlegungen",
           "generation": "markdown",
           "page": [
             {
-              "nameUrl": "ImplementationGuide/Methodik.md",
+              "nameUrl": "ImplementationGuide/markdown/Methodik.md",
               "title": "Methodik",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/BestaetigungsrelevanteSysteme.md",
+              "nameUrl": "ImplementationGuide/markdown/BestaetigungsrelevanteSysteme.md",
               "title": "Bestätigungsrelevante Systeme",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/Kompatibilitaet.md",
+              "nameUrl": "ImplementationGuide/markdown/Kompatibilitaet.md",
               "title": "Kompatibilität",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/MustSupportFlags.md",
+              "nameUrl": "ImplementationGuide/markdown/MustSupportFlags.md",
               "title": "Must-Support-Flags",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/Repraesentationsformate.md",
+              "nameUrl": "ImplementationGuide/markdown/Repraesentationsformate.md",
               "title": "Repräsentationsformate",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/Suchparameter.md",
+              "nameUrl": "ImplementationGuide/markdown/Suchparameter.md",
               "title": "Suchparameter",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/RestApi.md",
+              "nameUrl": "ImplementationGuide/markdown/RestApi.md",
               "title": "REST-API",
               "generation": "markdown"
             }
           ]
         },
         {
-          "nameUrl": "ImplementationGuide/Datenobjekte.md",
+          "nameUrl": "ImplementationGuide/markdown/Datenobjekte.md",
           "title": "Datenobjekte",
           "generation": "markdown",
           "page": [
             {
-              "nameUrl": "ImplementationGuide/CapabilityStatement.md",
+              "nameUrl": "ImplementationGuide/markdown/CapabilityStatement.md",
               "title": "CapabilityStatement",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/Datenobjekte_Patient.md",
+              "nameUrl": "ImplementationGuide/markdown/Datenobjekte_Patient.md",
               "title": "Patient (Patient)",
               "generation": "markdown",
               "page": [
                 {
-                  "nameUrl": "ImplementationGuide/Patient_Kompatibilitaet.md",
+                  "nameUrl": "ImplementationGuide/markdown/Patient_Kompatibilitaet.md",
                   "title": "Kompatibilität",
                   "generation": "markdown"
                 },
                 {
-                  "nameUrl": "ImplementationGuide/Patient_Profil.md",
+                  "nameUrl": "ImplementationGuide/markdown/Patient_Profil.md",
                   "title": "Profil",
                   "generation": "markdown"
                 },
                 {
-                  "nameUrl": "ImplementationGuide/Patient_AnmerkungenZuDenMustSupportFeldern.md",
+                  "nameUrl": "ImplementationGuide/markdown/Patient_AnmerkungenZuDenMustSupportFeldern.md",
                   "title": "Anmerkungen zu den Must-Support Feldern",
                   "generation": "markdown"
                 },
                 {
-                  "nameUrl": "ImplementationGuide/Patient_Interaktionen.md",
+                  "nameUrl": "ImplementationGuide/markdown/Patient_Interaktionen.md",
                   "title": "Interaktionen",
                   "generation": "markdown"
                 },
                 {
-                  "nameUrl": "ImplementationGuide/Patient_Beispiele.md",
+                  "nameUrl": "ImplementationGuide/markdown/Patient_Beispiele.md",
                   "title": "Beispiele",
                   "generation": "markdown"
                 }

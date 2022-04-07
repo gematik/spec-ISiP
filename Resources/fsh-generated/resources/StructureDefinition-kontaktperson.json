@@ -1,15 +1,42 @@
 {
   "resourceType": "StructureDefinition",
   "id": "kontaktperson",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Base.Individuals"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "patient"
+    }
+  ],
   "url": "https://gematik.de/fhir/ISiP/StructureDefinition/kontaktperson",
   "version": "1.0.0-ballot",
   "name": "KontaktPerson",
   "status": "active",
   "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    }
+  ],
   "kind": "resource",
   "abstract": false,
   "type": "RelatedPerson",
-  "baseDefinition": "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKAngehoeriger",
+  "baseDefinition": "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKAngehoeriger",
   "derivation": "constraint",
   "differential": {
     "element": [
@@ -20,7 +47,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "https://gematik.de/fhir/ISiP/StructureDefinition/ISiPPatient"
+              "https://gematik.de/fhir/ISiP/StructureDefinition/ISiPPflegeempfaenger"
             ]
           }
         ]
@@ -56,11 +83,6 @@
         "id": "RelatedPerson.telecom.value",
         "path": "RelatedPerson.telecom.value",
         "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "RelatedPerson.address",
-        "path": "RelatedPerson.address",
         "mustSupport": true
       }
     ]
