@@ -4,7 +4,6 @@
   "url": "https://gematik.de/fhir/ISiP/StructureDefinition/pflegeepisode",
   "version": "0.1.0",
   "name": "Pflegeepisode",
-  "title": "Pflegeepisode",
   "status": "active",
   "fhirVersion": "4.0.1",
   "mapping": [
@@ -80,7 +79,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "https://gematik.de/fhir/ISiP/StructureDefinition/isip-organization"
+              "https://gematik.de/fhir/ISiP/StructureDefinition/IsipOrganization"
             ]
           }
         ]
