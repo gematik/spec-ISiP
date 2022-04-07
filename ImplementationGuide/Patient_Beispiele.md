@@ -2,4 +2,4 @@
 
 Valides Minimalbeispiel Patient:
 
-{{json:ExampleISiPPatient}}
+{{json:Resources/fsh-generated/resources/Patient-ExampleISiPPatient.json}}
