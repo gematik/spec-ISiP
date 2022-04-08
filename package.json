@@ -7,7 +7,7 @@
         "4.0.1"
     ],
     "dependencies": {
-        "de.gematik.isik-basismodul": "2.0.0-ballot1",
+        "de.gematik.isik-basismodul": "2.0.0-ballot2",
         "kbv.mio.ueberleitungsbogen": "1.0.0-kommentierung"
     }
 }
