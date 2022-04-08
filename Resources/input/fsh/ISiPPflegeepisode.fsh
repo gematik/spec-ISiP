@@ -8,11 +8,10 @@ Parent: ISiKEncounter
   * ^patternCodeableConcept.coding.system = Canonical(EncounterPflegeArten)
 * serviceType.coding contains Pflegeart 0..1 MS
 * serviceType.coding[Pflegeart] from EncounterServiceTypePflegeVS (extensible)
-  * ^patternCodeableConcept.coding.system = Canonical(EncounterPflegeArten)
+  * ^patternCoding.system = Canonical(EncounterPflegeArten)
 * subject only Reference (ISiPPflegeempfaenger)
 * period MS
 * serviceProvider only Reference(IsipOrganization)
-
 
 Instance: ExampleISiPPflegeepisode
 InstanceOf: ISiPPflegeepisode
