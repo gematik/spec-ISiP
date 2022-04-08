@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "Pflegeepisode",
+  "id": "ISiPPflegeepisode",
   "extension": [
     {
       "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
@@ -11,9 +11,9 @@
       "valueCode": "patient"
     }
   ],
-  "url": "https://gematik.de/fhir/ISiP/StructureDefinition/Pflegeepisode",
+  "url": "https://gematik.de/fhir/ISiP/StructureDefinition/ISiPPflegeepisode",
   "version": "1.0.0-ballot",
-  "name": "Pflegeepisode",
+  "name": "ISiPPflegeepisode",
   "status": "active",
   "fhirVersion": "4.0.1",
   "mapping": [
@@ -71,16 +71,25 @@
             }
           ]
         },
-        "mustSupport": true,
         "binding": {
           "strength": "extensible",
           "valueSet": "https://gematik.de/fhir/ISiP/ValueSet/encounter-type-pflege"
         }
       },
       {
-        "id": "Encounter.serviceType",
-        "path": "Encounter.serviceType",
-        "min": 1,
+        "id": "Encounter.serviceType.coding:Pflegeart",
+        "path": "Encounter.serviceType.coding",
+        "sliceName": "Pflegeart",
+        "min": 0,
+        "max": "1",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://gematik.de/fhir/ISiP/CodeSystem/EncounterPflegeArten"
+            }
+          ]
+        },
+        "mustSupport": true,
         "binding": {
           "strength": "extensible",
           "valueSet": "https://gematik.de/fhir/ISiP/ValueSet/encounter-serviceType-pflege"

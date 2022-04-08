@@ -1,20 +1,21 @@
-Profile: Pflegeepisode
+Profile: ISiPPflegeepisode
 Parent: ISiKEncounter
 * class 1.. MS
 * class from EncounterClassPflegeVS
 * type contains
-    Pflegeepisodentyp 1..1 MS
+    Pflegeepisodentyp 1..1
 * type[Pflegeepisodentyp] from EncounterTypePflegeVS (extensible)
   * ^patternCodeableConcept.coding.system = Canonical(EncounterPflegeArten)
-* serviceType 1..
-* serviceType from EncounterServiceTypePflegeVS (extensible)
+* serviceType.coding contains Pflegeart 0..1 MS
+* serviceType.coding[Pflegeart] from EncounterServiceTypePflegeVS (extensible)
+  * ^patternCodeableConcept.coding.system = Canonical(EncounterPflegeArten)
 * subject only Reference (ISiPPflegeempfaenger)
 * period MS
 * serviceProvider only Reference(IsipOrganization)
 
 
-Instance: ExamplePflegeepisode
-InstanceOf: Pflegeepisode
+Instance: ExampleISiPPflegeepisode
+InstanceOf: ISiPPflegeepisode
 Usage: #example
 * identifier.type = $v2-0203#VN
 * identifier.system = "https://test.krankenhaus.de/fhir/sid/fallnr"
