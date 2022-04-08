@@ -53,7 +53,7 @@
     ]
   },
   "subject": {
-    "reference": "ISiPPflegeempfaenger"
+    "reference": "Patient/ExampleISiPPflegeempfaenger"
   },
   "period": {
     "start": "2021-02-12",
