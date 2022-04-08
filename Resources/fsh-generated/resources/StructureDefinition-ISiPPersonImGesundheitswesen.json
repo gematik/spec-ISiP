@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "isip-practitioner",
+  "id": "ISiPPersonImGesundheitswesen",
   "extension": [
     {
       "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
@@ -11,7 +11,7 @@
       "valueCode": "individual"
     }
   ],
-  "url": "https://gematik.de/fhir/ISiP/StructureDefinition/isip-practitioner",
+  "url": "https://gematik.de/fhir/ISiP/StructureDefinition/ISiPPersonImGesundheitswesen",
   "version": "1.0.0-ballot",
   "name": "ISiPPersonImGesundheitswesen",
   "status": "active",

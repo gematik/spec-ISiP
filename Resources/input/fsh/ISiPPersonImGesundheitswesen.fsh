@@ -1,6 +1,5 @@
 Profile: ISiPPersonImGesundheitswesen
 Parent: ISiKPractitioner
-Id: isip-practitioner
 * active MS
 * telecom MS
   * system 1..1 MS

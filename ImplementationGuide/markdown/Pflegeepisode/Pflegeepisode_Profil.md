@@ -5,12 +5,6 @@ from StructureDefinition where url = 'https://gematik.de/fhir/ISiP/StructureDefi
 ```
 {{tree:https://gematik.de/fhir/ISiP/StructureDefinition/ISiPPflegeepisode, hybrid}}
 
-Folgende FHIRPath-Constraints sind im Profil zu beachten:
-
-@``` from StructureDefinition where url = 'https://gematik.de/fhir/ISiP/StructureDefinition/ISiPPflegeepisode' for differential.element.constraint select key, severity, human, expression```
-
----
-
 **Terminology Bindings**
 
 @```

@@ -3,7 +3,7 @@
   "id": "PractitionerWalterArzt",
   "meta": {
     "profile": [
-      "https://gematik.de/fhir/ISiP/StructureDefinition/isip-practitioner"
+      "https://gematik.de/fhir/ISiP/StructureDefinition/ISiPPersonImGesundheitswesen"
     ]
   },
   "name": [
