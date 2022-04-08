@@ -1,0 +1,38 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "FamilienStandVS",
+  "id": "familien-stand",
+  "title": "Familienstand des Pflegeempfangenden",
+  "version": "1.0.0-ballot",
+  "url": "https://gematik.de/fhir/ISiP/ValueSet/familien-stand",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+        "concept": [
+          {
+            "code": "M",
+            "display": "Married"
+          },
+          {
+            "code": "D",
+            "display": "Divorced"
+          },
+          {
+            "code": "T",
+            "display": "Domestic partner"
+          },
+          {
+            "code": "U",
+            "display": "unmarried"
+          },
+          {
+            "code": "W",
+            "display": "Widowed"
+          }
+        ]
+      }
+    ]
+  }
+}

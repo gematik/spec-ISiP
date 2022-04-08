@@ -1,0 +1,124 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "ISiPPflegeepisode",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Base.Management"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "patient"
+    }
+  ],
+  "url": "https://gematik.de/fhir/ISiP/StructureDefinition/ISiPPflegeepisode",
+  "version": "1.0.0-ballot",
+  "name": "ISiPPflegeepisode",
+  "status": "active",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Pattern"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Encounter",
+  "baseDefinition": "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKontaktGesundheitseinrichtung",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Encounter.class",
+        "path": "Encounter.class",
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://gematik.de/fhir/ISiP/ValueSet/encounter-class-pflege"
+        }
+      },
+      {
+        "id": "Encounter.type",
+        "path": "Encounter.type",
+        "min": 2
+      },
+      {
+        "id": "Encounter.type:Pflegeepisodentyp",
+        "path": "Encounter.type",
+        "sliceName": "Pflegeepisodentyp",
+        "min": 1,
+        "max": "1",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://gematik.de/fhir/ISiP/CodeSystem/EncounterPflegeArten"
+            }
+          ]
+        },
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "https://gematik.de/fhir/ISiP/ValueSet/encounter-type-pflege"
+        }
+      },
+      {
+        "id": "Encounter.serviceType.coding:Pflegeart",
+        "path": "Encounter.serviceType.coding",
+        "sliceName": "Pflegeart",
+        "min": 0,
+        "max": "1",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://gematik.de/fhir/ISiP/CodeSystem/EncounterPflegeArten"
+            }
+          ]
+        },
+        "mustSupport": true,
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "https://gematik.de/fhir/ISiP/ValueSet/encounter-serviceType-pflege"
+        }
+      },
+      {
+        "id": "Encounter.subject",
+        "path": "Encounter.subject",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "https://gematik.de/fhir/ISiP/StructureDefinition/ISiPPflegeempfaenger"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Encounter.serviceProvider",
+        "path": "Encounter.serviceProvider",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "https://gematik.de/fhir/ISiP/StructureDefinition/IsipOrganization"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
