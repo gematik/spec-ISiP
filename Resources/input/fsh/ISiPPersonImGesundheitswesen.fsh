@@ -12,7 +12,7 @@ Id: isip-practitioner
   * code MS
 
 Instance: PractitionerWalterArzt
-InstanceOf: ISiKPersonImGesundheitsberuf
+InstanceOf: ISiPPersonImGesundheitswesen
 Usage: #example
 * identifier[0].type = $v2-0203#LANR
 * identifier[=].system = "https://fhir.kbv.de/NamingSystem/KBV_NS_Base_ANR"

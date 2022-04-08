@@ -78,5 +78,5 @@ Usage: #example
 * communication[+]
   * language = $bcp47#de "German"
   * preferred = true
-//generalPractitioner
-//managingOrganization
+* generalPractitioner = Reference(PractitionerWalterArzt)
+* managingOrganization = Reference(ExampleIsipOrganization)
