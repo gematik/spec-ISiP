@@ -29,3 +29,4 @@ Alias: $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203
 Alias: $v3-ActCode = http://terminology.hl7.org/CodeSystem/v3-ActCode
 Alias: SCT = http://snomed.info/sct
 Alias: $bcp47 = http://tools.ietf.org/html/bcp47
+Alias: $capabilitystatement-expectation = http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation

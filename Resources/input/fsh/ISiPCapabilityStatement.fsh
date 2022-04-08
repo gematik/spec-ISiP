@@ -6,7 +6,7 @@ Usage: #definition
 * title = "ISiP CapabilityStatement Server"
 * status = #active
 * experimental = false
-* date = "2022-04-3"
+* date = "2022-04-03"
 * publisher = "gematik GmbH"
 * contact.telecom.system = #url
 * contact.telecom.value = "https://www.gematik.de"
