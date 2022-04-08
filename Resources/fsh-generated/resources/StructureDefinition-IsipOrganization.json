@@ -52,7 +52,7 @@
           "discriminator": [
             {
               "type": "profile",
-              "path": "type"
+              "path": "$this"
             }
           ],
           "rules": "open"
