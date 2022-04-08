@@ -76,27 +76,27 @@
               "generation": "markdown",
               "page": [
                 {
-                  "nameUrl": "ImplementationGuide/markdown/Pflegeempfaenger_Kompatibilitaet.md",
+                  "nameUrl": "ImplementationGuide/markdown/Pflegeempfaenger/Pflegeempfaenger_Kompatibilitaet.md",
                   "title": "Kompatibilität",
                   "generation": "markdown"
                 },
                 {
-                  "nameUrl": "ImplementationGuide/markdown/Pflegeempfaenger_Profil.md",
+                  "nameUrl": "ImplementationGuide/markdown/Pflegeempfaenger/Pflegeempfaenger_Profil.md",
                   "title": "Profil",
                   "generation": "markdown"
                 },
                 {
-                  "nameUrl": "ImplementationGuide/markdown/Pflegeempfaenger_AnmerkungenZuDenMustSupportFeldern.md",
+                  "nameUrl": "ImplementationGuide/markdown/Pflegeempfaenger/Pflegeempfaenger_AnmerkungenZuDenMustSupportFeldern.md",
                   "title": "Anmerkungen zu den Must-Support Feldern",
                   "generation": "markdown"
                 },
                 {
-                  "nameUrl": "ImplementationGuide/markdown/Pflegeempfaenger_Interaktionen.md",
+                  "nameUrl": "ImplementationGuide/markdown/Pflegeempfaenger/Pflegeempfaenger_Interaktionen.md",
                   "title": "Interaktionen",
                   "generation": "markdown"
                 },
                 {
-                  "nameUrl": "ImplementationGuide/markdown/Pflegeempfaenger_Beispiele.md",
+                  "nameUrl": "ImplementationGuide/markdown/Pflegeempfaenger/Pflegeempfaenger_Beispiele.md",
                   "title": "Beispiele",
                   "generation": "markdown"
                 }
