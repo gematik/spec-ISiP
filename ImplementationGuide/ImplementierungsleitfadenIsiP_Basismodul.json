@@ -2,7 +2,7 @@
   "resourceType": "ImplementationGuide",
   "url": "https://gematik.de/fhir/ISiP/ImplementationGuide/markdown/ISiP",
   "name": "Implementierungsleitfaden ISiP",
-  "status": "draft",
+  "status": "active",
   "fhirVersion": [
     "4.0.1"
   ],
@@ -24,44 +24,44 @@
           "generation": "markdown",
           "page": [
             {
-              "nameUrl": "ImplementationGuide/markdown/Methodik.md",
+              "nameUrl": "ImplementationGuide/markdown/UebergreifendeFestlegungen/Methodik.md",
               "title": "Methodik",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/markdown/BestaetigungsrelevanteSysteme.md",
+              "nameUrl": "ImplementationGuide/markdown/UebergreifendeFestlegungen/BestaetigungsrelevanteSysteme.md",
               "title": "Bestätigungsrelevante Systeme",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/markdown/Kompatibilitaet.md",
+              "nameUrl": "ImplementationGuide/markdown/UebergreifendeFestlegungen/Kompatibilitaet.md",
               "title": "Kompatibilität",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/markdown/MustSupportFlags.md",
+              "nameUrl": "ImplementationGuide/markdown/UebergreifendeFestlegungen/MustSupportFlags.md",
               "title": "Must-Support-Flags",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/markdown/Repraesentationsformate.md",
+              "nameUrl": "ImplementationGuide/markdown/UebergreifendeFestlegungen/Repraesentationsformate.md",
               "title": "Repräsentationsformate",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/markdown/Suchparameter.md",
+              "nameUrl": "ImplementationGuide/markdown/UebergreifendeFestlegungen/Suchparameter.md",
               "title": "Suchparameter",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/markdown/RestApi.md",
+              "nameUrl": "ImplementationGuide/markdown/UebergreifendeFestlegungen/RestApi.md",
               "title": "REST-API",
               "generation": "markdown"
             }
           ]
         },
         {
-          "nameUrl": "ImplementationGuide/markdown/Datenobjekte.md",
+          "nameUrl": "ImplementationGuide/markdown/Datenobjekte/Datenobjekte.md",
           "title": "Datenobjekte",
           "generation": "markdown",
           "page": [
@@ -71,32 +71,32 @@
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/markdown/Datenobjekte_Patient.md",
+              "nameUrl": "ImplementationGuide/markdown/Datenobjekte/Datenobjekte_Pflegeempfaenger.md",
               "title": "Patient (Patient)",
               "generation": "markdown",
               "page": [
                 {
-                  "nameUrl": "ImplementationGuide/markdown/Patient_Kompatibilitaet.md",
+                  "nameUrl": "ImplementationGuide/markdown/Pflegeempfaenger_Kompatibilitaet.md",
                   "title": "Kompatibilität",
                   "generation": "markdown"
                 },
                 {
-                  "nameUrl": "ImplementationGuide/markdown/Patient_Profil.md",
+                  "nameUrl": "ImplementationGuide/markdown/Pflegeempfaenger_Profil.md",
                   "title": "Profil",
                   "generation": "markdown"
                 },
                 {
-                  "nameUrl": "ImplementationGuide/markdown/Patient_AnmerkungenZuDenMustSupportFeldern.md",
+                  "nameUrl": "ImplementationGuide/markdown/Pflegeempfaenger_AnmerkungenZuDenMustSupportFeldern.md",
                   "title": "Anmerkungen zu den Must-Support Feldern",
                   "generation": "markdown"
                 },
                 {
-                  "nameUrl": "ImplementationGuide/markdown/Patient_Interaktionen.md",
+                  "nameUrl": "ImplementationGuide/markdown/Pflegeempfaenger_Interaktionen.md",
                   "title": "Interaktionen",
                   "generation": "markdown"
                 },
                 {
-                  "nameUrl": "ImplementationGuide/markdown/Patient_Beispiele.md",
+                  "nameUrl": "ImplementationGuide/markdown/Pflegeempfaenger_Beispiele.md",
                   "title": "Beispiele",
                   "generation": "markdown"
                 }
