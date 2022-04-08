@@ -1,6 +1,5 @@
 Profile: ISiPAngehoeriger
 Parent: ISiKAngehoeriger
-Id: kontaktperson
 * patient only Reference(ISiPPflegeempfaenger)
 * relationship MS
 * relationship from KontaktPersonRolleVS

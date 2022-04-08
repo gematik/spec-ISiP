@@ -101,6 +101,70 @@
                   "generation": "markdown"
                 }
               ]
+            },
+            {
+              "nameUrl": "ImplementationGuide/markdown/Datenobjekte/Datenobjekte_Pflegeepisode.md",
+              "title": "Pflegeepisode (Encounter)",
+              "generation": "markdown",
+              "page": [
+                {
+                  "nameUrl": "ImplementationGuide/markdown/Pflegeepisode/Pflegeepisode_Kompatibilitaet.md",
+                  "title": "Kompatibilität",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/Pflegeepisode/Pflegeepisode_Profil.md",
+                  "title": "Profil",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/Pflegeepisode/Pflegeepisode_AnmerkungenZuDenMustSupportFeldern.md",
+                  "title": "Anmerkungen zu den Must-Support Feldern",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/Pflegeepisode/Pflegeepisode_Interaktionen.md",
+                  "title": "Interaktionen",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/Pflegeepisode/Pflegeepisode_Beispiele.md",
+                  "title": "Beispiele",
+                  "generation": "markdown"
+                }
+              ]
+            },
+            {
+              "nameUrl": "ImplementationGuide/markdown/Datenobjekte/Datenobjekte_Angehoeriger.md",
+              "title": "Angehöriger (RelatedPerson)",
+              "generation": "markdown",
+              "page": [
+                {
+                  "nameUrl": "ImplementationGuide/markdown/Angehoeriger/Angehoeriger_Kompatibilitaet.md",
+                  "title": "Kompatibilität",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/Angehoeriger/Angehoeriger_Profil.md",
+                  "title": "Profil",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/Angehoeriger/Angehoeriger_AnmerkungenZuDenMustSupportFeldern.md",
+                  "title": "Anmerkungen zu den Must-Support Feldern",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/Angehoeriger/Angehoeriger_Interaktionen.md",
+                  "title": "Interaktionen",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/Angehoeriger/Angehoeriger_Beispiele.md",
+                  "title": "Beispiele",
+                  "generation": "markdown"
+                }
+              ]
             }
           ]
         }

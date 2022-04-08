@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "kontaktperson",
+  "id": "ISiPAngehoeriger",
   "extension": [
     {
       "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
@@ -11,7 +11,7 @@
       "valueCode": "patient"
     }
   ],
-  "url": "https://gematik.de/fhir/ISiP/StructureDefinition/kontaktperson",
+  "url": "https://gematik.de/fhir/ISiP/StructureDefinition/ISiPAngehoeriger",
   "version": "1.0.0-ballot",
   "name": "ISiPAngehoeriger",
   "status": "active",

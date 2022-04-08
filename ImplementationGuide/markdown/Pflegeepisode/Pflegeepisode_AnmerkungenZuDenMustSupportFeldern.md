@@ -8,3 +8,9 @@ Es gelten die Festlegungen aus dem [ISiK-Basismodul Kontakt/Fall Profil](https:/
 
 **Bedeutung:** Gibt den Typ der Pflegeepisode an
 
+### `Encounter.serviceType.coding:Pflegeart`
+
+**Bedeutung:** Gibt die Art der Pflegeepisode an
+
+
+
