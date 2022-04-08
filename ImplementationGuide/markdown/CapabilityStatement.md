@@ -18,6 +18,6 @@ Die Verwendung der [CapabilityStatement-Expectation](http://hl7.org/fhir/extensi
 
 Canonical: ```https://gematik.de/fhir/ISiP/CapabilityStatement/server```
 
-[Link Simplifier Profil Übersicht](https://simplifier.net/ISiK/ISiK-capabilitystatement-basis-server)
+[Link Simplifier Profil Übersicht](https://simplifier.net/isip/isipcapabilitystatementbasisserver)
 
 {{render:https://gematik.de/fhir/ISiP/CapabilityStatement/server}}
