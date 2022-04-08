@@ -20,4 +20,4 @@ Canonical: ```https://gematik.de/fhir/ISiP/CapabilityStatement/server```
 
 [Link Simplifier Profil Übersicht](https://simplifier.net/ISiK/ISiK-capabilitystatement-basis-server)
 
-{{render:https://gematik.de/fhir/ISiK/v2/CapabilityStatement/basis-server}}
+{{render:https://gematik.de/fhir/ISiP/CapabilityStatement/server}}
