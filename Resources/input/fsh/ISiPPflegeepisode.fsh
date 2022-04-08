@@ -28,6 +28,6 @@ Usage: #example
 * period.start = "2021-02-12"
 * period.end = "2021-02-13"
 * serviceProvider = Reference(ExampleIsipOrganization)
-* serviceProvider.identifier.system = $telematik-id
+* serviceProvider.identifier.system = $telematik-id-system
 * serviceProvider.identifier.value = "1234567890"
 * serviceProvider.display = "Haus am See"

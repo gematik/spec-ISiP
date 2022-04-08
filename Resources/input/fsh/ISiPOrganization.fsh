@@ -7,7 +7,7 @@ Parent: Organization
 * identifier contains Institutionskennzeichen 0..1 MS and Betriebsstaettennummer 0..1 MS and TelematikId 0..1 MS
 * identifier[Institutionskennzeichen] only IKNR
 * identifier[Betriebsstaettennummer] only BSNR
-* identifier[TelematikId] only $telematik-id
+* identifier[TelematikId] only $telematik-id-profile
 * active MS
 * type 1.. MS
 * type from OrgTypeKBV-VS
@@ -55,7 +55,7 @@ Parent: Organization
 Instance: ExampleIsipOrganization
 InstanceOf: IsipOrganization
 * identifier
-  * system = $telematik-id
+  * system = $telematik-id-system
   * value = "1234567890"
 * active = true
 * name = "Haus am See"

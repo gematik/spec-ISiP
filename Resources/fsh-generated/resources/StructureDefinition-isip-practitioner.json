@@ -83,11 +83,7 @@
       {
         "id": "Practitioner.qualification.code",
         "path": "Practitioner.qualification.code",
-        "mustSupport": true,
-        "binding": {
-          "strength": "required",
-          "valueSet": "https://fhir.kbv.de/ValueSet/KBV_VS_Base_Practitioner_Speciality"
-        }
+        "mustSupport": true
       }
     ]
   }
