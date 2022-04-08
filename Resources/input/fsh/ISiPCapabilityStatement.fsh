@@ -212,12 +212,6 @@ Usage: #definition
 * rest.resource[=].searchInclude = "RelatedPerson:patient"
 * rest.resource[=].searchInclude[=].extension.url = $capabilitystatement-expectation
 * rest.resource[=].searchInclude[=].extension.valueCode = #SHALL
-* rest.resource[=].searchRevInclude = "Coverage:subscriber"
-* rest.resource[=].searchRevInclude[=].extension.url = $capabilitystatement-expectation
-* rest.resource[=].searchRevInclude[=].extension.valueCode = #SHALL
-* rest.resource[=].searchRevInclude[+] = "Coverage:payor"
-* rest.resource[=].searchRevInclude[=].extension.url = $capabilitystatement-expectation
-* rest.resource[=].searchRevInclude[=].extension.valueCode = #SHALL
 * rest.resource[+].extension.url = $capabilitystatement-expectation
 * rest.resource[=].extension.valueCode = #SHALL
 * rest.resource[=].type = #Practitioner
