@@ -2,7 +2,7 @@ Profile: IsipOrganization
 Parent: Organization
 * identifier 1..* MS
 * identifier ^slicing.discriminator.type = #profile
-* identifier ^slicing.discriminator.path = "type"
+* identifier ^slicing.discriminator.path = "$this"
 * identifier ^slicing.rules = #open
 * identifier contains Institutionskennzeichen 0..1 MS and Betriebsstaettennummer 0..1 MS and TelematikId 0..1 MS
 * identifier[Institutionskennzeichen] only IKNR
