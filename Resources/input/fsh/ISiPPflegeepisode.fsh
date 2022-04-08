@@ -24,7 +24,7 @@ Usage: #example
 * type[+] = $Kontaktebene#abteilungskontakt "Abteilungskontakt"
 * type[+] = EncounterPflegeArten#langzeitpflege
 * serviceType = EncounterPflegeArten#intensivpflege
-* subject = Reference(ISiPPflegeempfaenger)
+* subject = Reference(ExampleISiPPflegeempfaenger)
 * period.start = "2021-02-12"
 * period.end = "2021-02-13"
 * serviceProvider = Reference(ExampleIsipOrganization)
