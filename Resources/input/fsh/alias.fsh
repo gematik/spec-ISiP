@@ -7,7 +7,8 @@ Alias: ISiKAngehoeriger = https://gematik.de/fhir/ISiK/v2/StructureDefinition/IS
 //FHIR DE basis:
 Alias: IKNR = http://fhir.de/StructureDefinition/identifier-iknr
 Alias: BSNR = http://fhir.de/StructureDefinition/identifier-bsnr
-Alias: $telematik-id = http://fhir.de/StructureDefinition/identifier-telematik-id
+Alias: $telematik-id-system = https://gematik.de/fhir/sid/telematik-id
+Alias: $telematik-id-profile = http://fhir.de/StructureDefinition/identifier-telematik-id
 Alias: PflegegradDE = http://fhir.de/StructureDefinition/observation-de-pflegegrad
 Alias: $identifier-type-de-basis = http://fhir.de/CodeSystem/identifier-type-de-basis
 Alias: $kontaktart-de = http://fhir.de/CodeSystem/kontaktart-de
@@ -17,6 +18,7 @@ Alias: $Kontaktebene = http://fhir.de/CodeSystem/Kontaktebene
 Alias: OrgTypeKBV-VS = https://fhir.kbv.de/ValueSet/KBV_VS_MIO_ULB_Type_Of_Facility
 Alias: PractitionerSpecialityKBV = https://fhir.kbv.de/ValueSet/KBV_VS_Base_Practitioner_Speciality
 Alias: KontaktPersonRolle = http://terminology.hl7.org/ValueSet/v2-0063
+Alias: Facharzttitel = urn:oid:1.2.276.0.76.5.514
 
 // FHIR core
 Alias: ContactPointSystem = http://hl7.org/fhir/contact-point-system
