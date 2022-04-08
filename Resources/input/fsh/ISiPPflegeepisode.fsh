@@ -5,7 +5,7 @@ Parent: ISiKEncounter
 * type contains
     Pflegeepisodentyp 1..1 MS
 * type[Pflegeepisodentyp] from EncounterTypePflegeVS (extensible)
-  * ^patternCodeableConcept.coding.system = EncounterPflegeArten
+  * ^patternCodeableConcept.coding.system = Canonical(EncounterPflegeArten)
 * serviceType 1..
 * serviceType from EncounterServiceTypePflegeVS (extensible)
 * subject only Reference (ISiPPflegeempfaenger)

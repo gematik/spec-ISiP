@@ -13,7 +13,7 @@
   ],
   "url": "https://gematik.de/fhir/ISiP/StructureDefinition/kontaktperson",
   "version": "1.0.0-ballot",
-  "name": "KontaktPerson",
+  "name": "ISiPAngehoeriger",
   "status": "active",
   "fhirVersion": "4.0.1",
   "mapping": [
@@ -70,19 +70,16 @@
       {
         "id": "RelatedPerson.telecom",
         "path": "RelatedPerson.telecom",
-        "min": 1,
         "mustSupport": true
       },
       {
         "id": "RelatedPerson.telecom.system",
         "path": "RelatedPerson.telecom.system",
-        "min": 1,
         "mustSupport": true
       },
       {
         "id": "RelatedPerson.telecom.value",
         "path": "RelatedPerson.telecom.value",
-        "min": 1,
         "mustSupport": true
       }
     ]

@@ -183,5 +183,13 @@
       },
       "preferred": true
     }
-  ]
+  ],
+  "generalPractitioner": [
+    {
+      "reference": "Practitioner/PractitionerWalterArzt"
+    }
+  ],
+  "managingOrganization": {
+    "reference": "Organization/ExampleIsipOrganization"
+  }
 }

@@ -67,7 +67,7 @@
         "patternCodeableConcept": {
           "coding": [
             {
-              "system": "EncounterPflegeArten"
+              "system": "https://gematik.de/fhir/ISiP/CodeSystem/EncounterPflegeArten"
             }
           ]
         },
