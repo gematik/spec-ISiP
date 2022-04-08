@@ -72,7 +72,7 @@
             },
             {
               "nameUrl": "ImplementationGuide/markdown/Datenobjekte/Datenobjekte_Pflegeempfaenger.md",
-              "title": "Patient (Patient)",
+              "title": "Pflegeempfänger (Patient)",
               "generation": "markdown",
               "page": [
                 {
@@ -161,6 +161,70 @@
                 },
                 {
                   "nameUrl": "ImplementationGuide/markdown/Angehoeriger/Angehoeriger_Beispiele.md",
+                  "title": "Beispiele",
+                  "generation": "markdown"
+                }
+              ]
+            },
+            {
+              "nameUrl": "ImplementationGuide/markdown/Datenobjekte/Datenobjekte_PersonImGesundheitsberuf.md",
+              "title": "PersonImGesundheitsberuf (Practitioner)",
+              "generation": "markdown",
+              "page": [
+                {
+                  "nameUrl": "ImplementationGuide/markdown/PersonImGesundheitsberuf/PersonImGesundheitsberuf_Kompatibilitaet.md",
+                  "title": "Kompatibilität",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/PersonImGesundheitsberuf/PersonImGesundheitsberuf_Profil.md",
+                  "title": "Profil",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/PersonImGesundheitsberuf/PersonImGesundheitsberuf_AnmerkungenZuDenMustSupportFeldern.md",
+                  "title": "Anmerkungen zu den Must-Support Feldern",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/PersonImGesundheitsberuf/PersonImGesundheitsberuf_Interaktionen.md",
+                  "title": "Interaktionen",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/PersonImGesundheitsberuf/PersonImGesundheitsberuf_Beispiele.md",
+                  "title": "Beispiele",
+                  "generation": "markdown"
+                }
+              ]
+            },
+            {
+              "nameUrl": "ImplementationGuide/markdown/Datenobjekte/Datenobjekte_Organisation.md",
+              "title": "Organisation (Organization)",
+              "generation": "markdown",
+              "page": [
+                {
+                  "nameUrl": "ImplementationGuide/markdown/Organisation/Organisation_Kompatibilitaet.md",
+                  "title": "Kompatibilität",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/Organisation/Organisation_Profil.md",
+                  "title": "Profil",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/Organisation/Organisation_AnmerkungenZuDenMustSupportFeldern.md",
+                  "title": "Anmerkungen zu den Must-Support Feldern",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/Organisation/Organisation_Interaktionen.md",
+                  "title": "Interaktionen",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/Organisation/Organisation_Beispiele.md",
                   "title": "Beispiele",
                   "generation": "markdown"
                 }
