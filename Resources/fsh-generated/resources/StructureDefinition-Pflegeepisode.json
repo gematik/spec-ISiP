@@ -64,6 +64,13 @@
         "sliceName": "Pflegeepisodentyp",
         "min": 1,
         "max": "1",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "EncounterPflegeArten"
+            }
+          ]
+        },
         "mustSupport": true,
         "binding": {
           "strength": "extensible",

@@ -11,15 +11,16 @@
       "coding": [
         {
           "system": "http://fhir.de/CodeSystem/Kontaktebene",
-          "code": "Fachabteilungskontakt"
+          "code": "abteilungskontakt",
+          "display": "Abteilungskontakt"
         }
       ]
     },
     {
       "coding": [
         {
-          "code": "langzeitpflege",
-          "system": "https://gematik.de/fhir/ISiP/CodeSystem/EncounterPflegeArten"
+          "system": "https://gematik.de/fhir/ISiP/CodeSystem/EncounterPflegeArten",
+          "code": "langzeitpflege"
         }
       ]
     }

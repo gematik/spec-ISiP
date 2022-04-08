@@ -5,6 +5,7 @@ Parent: ISiKEncounter
 * type contains
     Pflegeepisodentyp 1..1 MS
 * type[Pflegeepisodentyp] from EncounterTypePflegeVS (extensible)
+  * ^patternCodeableConcept.coding.system = EncounterPflegeArten
 * serviceType 1..
 * serviceType from EncounterServiceTypePflegeVS (extensible)
 * subject only Reference (ISiPPflegeempfaenger)
@@ -20,7 +21,7 @@ Usage: #example
 * identifier.value = "0123456789"
 * status = #finished
 * class = $v3-ActCode#IMP
-* type[+] = $Kontaktebene#Fachabteilungskontakt
+* type[+] = $Kontaktebene#abteilungskontakt "Abteilungskontakt"
 * type[+] = EncounterPflegeArten#langzeitpflege
 * serviceType = EncounterPflegeArten#intensivpflege
 * subject = Reference(ISiPPflegeempfaenger)
