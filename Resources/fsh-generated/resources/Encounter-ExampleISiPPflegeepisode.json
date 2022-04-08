@@ -1,9 +1,9 @@
 {
   "resourceType": "Encounter",
-  "id": "ExamplePflegeepisode",
+  "id": "ExampleISiPPflegeepisode",
   "meta": {
     "profile": [
-      "https://gematik.de/fhir/ISiP/StructureDefinition/Pflegeepisode"
+      "https://gematik.de/fhir/ISiP/StructureDefinition/ISiPPflegeepisode"
     ]
   },
   "type": [
