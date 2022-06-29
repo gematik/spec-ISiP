@@ -1,8 +1,8 @@
 //ISIK:
-Alias: ISiKPatient = https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKPatient
-Alias: ISiKEncounter = https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKontaktGesundheitseinrichtung
-Alias: ISiKPractitioner = https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKPersonImGesundheitsberuf
-Alias: ISiKAngehoeriger = https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKAngehoeriger
+Alias: ISiKPatient = https://gematik.de/fhir/isik/v2/Basismodul/v2/StructureDefinition/ISiKPatient
+Alias: ISiKEncounter = https://gematik.de/fhir/isik/v2/Basismodul/v2/StructureDefinition/ISiKKontaktGesundheitseinrichtung
+Alias: ISiKPractitioner = https://gematik.de/fhir/isik/v2/Basismodul/v2/StructureDefinition/ISiKPersonImGesundheitsberuf
+Alias: ISiKAngehoeriger = https://gematik.de/fhir/isik/v2/Basismodul/v2/StructureDefinition/ISiKAngehoeriger
 
 //FHIR DE basis:
 Alias: IKNR = http://fhir.de/StructureDefinition/identifier-iknr
