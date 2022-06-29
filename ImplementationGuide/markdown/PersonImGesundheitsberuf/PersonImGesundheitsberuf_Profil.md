@@ -1,15 +1,15 @@
 ### FHIR-Profil
 
 @```
-from StructureDefinition where url = 'https://gematik.de/fhir/ISiP/StructureDefinition/ISiPPersonImGesundheitswesen' select Name: name, Canonical: url
+from StructureDefinition where url = 'https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/ISiPPersonImGesundheitswesen' select Name: name, Canonical: url
 ```
-{{tree:https://gematik.de/fhir/ISiP/StructureDefinition/ISiPPersonImGesundheitswesen, hybrid}}
+{{tree:https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/ISiPPersonImGesundheitswesen, hybrid}}
 
 **Terminology Bindings**
 
 @```
 from StructureDefinition
-where url in ('https://gematik.de/fhir/ISiP/StructureDefinition/ISiPPersonImGesundheitswesen' )
+where url in ('https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/ISiPPersonImGesundheitswesen' )
 for differential.element
 select
 Path: path,
