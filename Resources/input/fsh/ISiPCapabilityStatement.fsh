@@ -1,7 +1,7 @@
 Instance: ISiPCapabilityStatementBasisServer
 InstanceOf: CapabilityStatement
 Usage: #definition
-* url = "https://gematik.de/fhir/isip/v1/Basismodul/v2/Basismodul/CapabilityStatement/server"
+* url = "https://gematik.de/fhir/isik/v2/Basismodul/Basismodul/CapabilityStatement/server"
 * name = "ISiPCapabilityStatementServer"
 * title = "ISiP CapabilityStatement Server"
 * status = #active
