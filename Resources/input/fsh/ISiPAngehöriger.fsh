@@ -2,7 +2,6 @@ Profile: ISiPAngehoeriger
 Parent: ISiKAngehoeriger
 * patient only Reference(ISiPPflegeempfaenger)
 * relationship MS
-* relationship from KontaktPersonRolleVS
   * coding 1.. MS
 * address MS
 * telecom MS

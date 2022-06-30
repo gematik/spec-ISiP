@@ -55,11 +55,7 @@
       {
         "id": "RelatedPerson.relationship",
         "path": "RelatedPerson.relationship",
-        "mustSupport": true,
-        "binding": {
-          "strength": "required",
-          "valueSet": "http://terminology.hl7.org/ValueSet/v2-0063"
-        }
+        "mustSupport": true
       },
       {
         "id": "RelatedPerson.relationship.coding",

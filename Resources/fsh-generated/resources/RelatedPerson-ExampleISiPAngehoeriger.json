@@ -33,7 +33,7 @@
       "coding": [
         {
           "code": "CHD",
-          "system": "https://terminology.hl7.org/3.1.0/CodeSystem-v2-0063.html",
+          "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "display": "Child"
         }
       ]
