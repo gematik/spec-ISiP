@@ -1,7 +1,7 @@
 {
   "resourceType": "CapabilityStatement",
   "id": "ISiPCapabilityStatementBasisServer",
-  "url": "https://gematik.de/fhir/ISiP/CapabilityStatement/server",
+  "url": "https://gematik.de/fhir/isik/v2/Basismodul/Basismodul/CapabilityStatement/server",
   "name": "ISiPCapabilityStatementServer",
   "title": "ISiP CapabilityStatement Server",
   "status": "active",
@@ -49,7 +49,7 @@
           ],
           "type": "Patient",
           "supportedProfile": [
-            "https://gematik.de/fhir/ISiP/StructureDefinition/ISiPPflegeempfaenger"
+            "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/ISiPPflegeempfaenger"
           ],
           "interaction": [
             {
@@ -259,7 +259,7 @@
           ],
           "type": "Encounter",
           "supportedProfile": [
-            "https://gematik.de/fhir/ISiP/StructureDefinition/ISiPPflegeepisode"
+            "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/ISiPPflegeepisode"
           ],
           "interaction": [
             {
@@ -447,7 +447,7 @@
           ],
           "type": "RelatedPerson",
           "supportedProfile": [
-            "https://gematik.de/fhir/ISiP/StructureDefinition/ISiPAngehoeriger"
+            "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/ISiPAngehoeriger"
           ],
           "interaction": [
             {
@@ -538,7 +538,7 @@
           ],
           "type": "Practitioner",
           "supportedProfile": [
-            "https://gematik.de/fhir/ISiP/StructureDefinition/ISiPPersonImGesundheitswesen"
+            "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/ISiPPersonImGesundheitswesen"
           ],
           "interaction": [
             {
@@ -660,7 +660,7 @@
           ],
           "type": "Organization",
           "supportedProfile": [
-            "https://gematik.de/fhir/ISiP/StructureDefinition/IsipOrganization"
+            "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/IsipOrganization"
           ],
           "interaction": [
             {

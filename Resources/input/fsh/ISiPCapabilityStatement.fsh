@@ -1,7 +1,7 @@
 Instance: ISiPCapabilityStatementBasisServer
 InstanceOf: CapabilityStatement
 Usage: #definition
-* url = "https://gematik.de/fhir/ISiP/CapabilityStatement/server"
+* url = "https://gematik.de/fhir/isik/v2/Basismodul/Basismodul/CapabilityStatement/server"
 * name = "ISiPCapabilityStatementServer"
 * title = "ISiP CapabilityStatement Server"
 * status = #active
@@ -20,7 +20,7 @@ Usage: #definition
 * rest.resource[+].extension.url = $capabilitystatement-expectation
 * rest.resource[=].extension.valueCode = #SHALL
 * rest.resource[=].type = #Patient
-* rest.resource[=].supportedProfile = "https://gematik.de/fhir/ISiP/StructureDefinition/ISiPPflegeempfaenger"
+* rest.resource[=].supportedProfile = "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/ISiPPflegeempfaenger"
 * rest.resource[=].interaction[0].extension.url = $capabilitystatement-expectation
 * rest.resource[=].interaction[=].extension.valueCode = #SHALL
 * rest.resource[=].interaction[=].code = #read
@@ -106,7 +106,7 @@ Usage: #definition
 * rest.resource[+].extension.url = $capabilitystatement-expectation
 * rest.resource[=].extension.valueCode = #SHALL
 * rest.resource[=].type = #Encounter
-* rest.resource[=].supportedProfile = "https://gematik.de/fhir/ISiP/StructureDefinition/ISiPPflegeepisode"
+* rest.resource[=].supportedProfile = "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/ISiPPflegeepisode"
 * rest.resource[=].interaction[0].extension.url = $capabilitystatement-expectation
 * rest.resource[=].interaction[=].extension.valueCode = #SHALL
 * rest.resource[=].interaction[=].code = #read
@@ -182,7 +182,7 @@ Usage: #definition
 * rest.resource[+].extension.url = $capabilitystatement-expectation
 * rest.resource[=].extension.valueCode = #SHALL
 * rest.resource[=].type = #RelatedPerson
-* rest.resource[=].supportedProfile = "https://gematik.de/fhir/ISiP/StructureDefinition/ISiPAngehoeriger"
+* rest.resource[=].supportedProfile = "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/ISiPAngehoeriger"
 * rest.resource[=].interaction[0].extension.url = $capabilitystatement-expectation
 * rest.resource[=].interaction[=].extension.valueCode = #SHALL
 * rest.resource[=].interaction[=].code = #read
@@ -215,7 +215,7 @@ Usage: #definition
 * rest.resource[+].extension.url = $capabilitystatement-expectation
 * rest.resource[=].extension.valueCode = #SHALL
 * rest.resource[=].type = #Practitioner
-* rest.resource[=].supportedProfile = "https://gematik.de/fhir/ISiP/StructureDefinition/ISiPPersonImGesundheitswesen"
+* rest.resource[=].supportedProfile = "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/ISiPPersonImGesundheitswesen"
 * rest.resource[=].interaction[0].extension.url = $capabilitystatement-expectation
 * rest.resource[=].interaction[=].extension.valueCode = #SHALL
 * rest.resource[=].interaction[=].code = #read
@@ -265,7 +265,7 @@ Usage: #definition
 * rest.resource[+].extension.url = $capabilitystatement-expectation
 * rest.resource[=].extension.valueCode = #SHALL
 * rest.resource[=].type = #Organization
-* rest.resource[=].supportedProfile = "https://gematik.de/fhir/ISiP/StructureDefinition/IsipOrganization"
+* rest.resource[=].supportedProfile = "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/IsipOrganization"
 * rest.resource[=].interaction[+].extension.url = $capabilitystatement-expectation
 * rest.resource[=].interaction[=].extension.valueCode = #SHALL
 * rest.resource[=].interaction[=].code = #read

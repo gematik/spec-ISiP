@@ -41,7 +41,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Practitioner",
-  "baseDefinition": "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKPersonImGesundheitsberuf",
+  "baseDefinition": "https://gematik.de/fhir/isik/v2/Basismodul/StructureDefinition/ISiKPersonImGesundheitsberuf",
   "derivation": "constraint",
   "differential": {
     "element": [

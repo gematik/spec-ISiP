@@ -36,7 +36,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "RelatedPerson",
-  "baseDefinition": "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKAngehoeriger",
+  "baseDefinition": "https://gematik.de/fhir/isik/v2/Basismodul/StructureDefinition/ISiKAngehoeriger",
   "derivation": "constraint",
   "differential": {
     "element": [
