@@ -11,7 +11,7 @@
       "valueCode": "patient"
     }
   ],
-  "url": "https://gematik.de/fhir/ISiP/StructureDefinition/ISiPPflegeepisode",
+  "url": "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/ISiPPflegeepisode",
   "version": "2.0.0-alpha1",
   "name": "ISiPPflegeepisode",
   "status": "active",
@@ -50,7 +50,7 @@
         "path": "Encounter.class",
         "binding": {
           "strength": "required",
-          "valueSet": "https://gematik.de/fhir/ISiP/ValueSet/encounter-class-pflege"
+          "valueSet": "https://gematik.de/fhir/isip/v1/Basismodul/ValueSet/encounter-class-pflege"
         }
       },
       {
@@ -67,13 +67,13 @@
         "patternCodeableConcept": {
           "coding": [
             {
-              "system": "https://gematik.de/fhir/ISiP/CodeSystem/EncounterPflegeArten"
+              "system": "https://gematik.de/fhir/isip/v1/Basismodul/CodeSystem/EncounterPflegeArten"
             }
           ]
         },
         "binding": {
           "strength": "extensible",
-          "valueSet": "https://gematik.de/fhir/ISiP/ValueSet/encounter-type-pflege"
+          "valueSet": "https://gematik.de/fhir/isip/v1/Basismodul/ValueSet/encounter-type-pflege"
         }
       },
       {
@@ -83,12 +83,12 @@
         "min": 0,
         "max": "1",
         "patternCoding": {
-          "system": "https://gematik.de/fhir/ISiP/CodeSystem/EncounterPflegeArten"
+          "system": "https://gematik.de/fhir/isip/v1/Basismodul/CodeSystem/EncounterPflegeArten"
         },
         "mustSupport": true,
         "binding": {
           "strength": "extensible",
-          "valueSet": "https://gematik.de/fhir/ISiP/ValueSet/encounter-serviceType-pflege"
+          "valueSet": "https://gematik.de/fhir/isip/v1/Basismodul/ValueSet/encounter-serviceType-pflege"
         }
       },
       {
@@ -98,7 +98,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "https://gematik.de/fhir/ISiP/StructureDefinition/ISiPPflegeempfaenger"
+              "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/ISiPPflegeempfaenger"
             ]
           }
         ]
@@ -110,7 +110,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "https://gematik.de/fhir/ISiP/StructureDefinition/IsipOrganization"
+              "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/IsipOrganization"
             ]
           }
         ]

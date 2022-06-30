@@ -11,7 +11,7 @@
       "valueCode": "patient"
     }
   ],
-  "url": "https://gematik.de/fhir/ISiP/StructureDefinition/ISiPPflegeempfaenger",
+  "url": "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/ISiPPflegeempfaenger",
   "version": "2.0.0-alpha1",
   "name": "ISiPPflegeempfaenger",
   "status": "active",
@@ -62,7 +62,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "https://gematik.de/fhir/ISiP/ValueSet/kontaktarten"
+          "valueSet": "https://gematik.de/fhir/isip/v1/Basismodul/ValueSet/kontaktarten"
         }
       },
       {
@@ -87,7 +87,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "https://gematik.de/fhir/ISiP/ValueSet/familien-stand"
+          "valueSet": "https://gematik.de/fhir/isip/v1/Basismodul/ValueSet/familien-stand"
         }
       },
       {
@@ -114,7 +114,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "https://gematik.de/fhir/ISiP/StructureDefinition/ISiPPersonImGesundheitswesen"
+              "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/ISiPPersonImGesundheitswesen"
             ]
           }
         ],
@@ -127,7 +127,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "https://gematik.de/fhir/ISiP/StructureDefinition/IsipOrganization"
+              "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/IsipOrganization"
             ]
           }
         ],

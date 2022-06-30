@@ -3,7 +3,7 @@
   "id": "ExampleISiPPflegeepisode",
   "meta": {
     "profile": [
-      "https://gematik.de/fhir/ISiP/StructureDefinition/ISiPPflegeepisode"
+      "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/ISiPPflegeepisode"
     ]
   },
   "type": [
@@ -19,7 +19,7 @@
     {
       "coding": [
         {
-          "system": "https://gematik.de/fhir/ISiP/CodeSystem/EncounterPflegeArten",
+          "system": "https://gematik.de/fhir/isip/v1/Basismodul/CodeSystem/EncounterPflegeArten",
           "code": "langzeitpflege"
         }
       ]
@@ -48,7 +48,7 @@
     "coding": [
       {
         "code": "intensivpflege",
-        "system": "https://gematik.de/fhir/ISiP/CodeSystem/EncounterPflegeArten"
+        "system": "https://gematik.de/fhir/isip/v1/Basismodul/CodeSystem/EncounterPflegeArten"
       }
     ]
   },

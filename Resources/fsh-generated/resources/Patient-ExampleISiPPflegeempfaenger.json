@@ -3,7 +3,7 @@
   "id": "ExampleISiPPflegeempfaenger",
   "meta": {
     "profile": [
-      "https://gematik.de/fhir/ISiP/StructureDefinition/ISiPPflegeempfaenger"
+      "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/ISiPPflegeempfaenger"
     ]
   },
   "identifier": [

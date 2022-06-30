@@ -1,6 +1,6 @@
 {
   "resourceType": "ImplementationGuide",
-  "url": "https://gematik.de/fhir/ISiP/ImplementationGuide/markdown/ISiP",
+  "url": "https://gematik.de/fhir/isip/v1/Basismodul/ImplementationGuide/markdown/ISiP",
   "name": "Implementierungsleitfaden ISiP",
   "status": "active",
   "fhirVersion": [
