@@ -20,18 +20,21 @@ Description: "ISiP Pflegeempfänger"
 Instance: ExampleISiPPflegeempfaenger
 InstanceOf: ISiPPflegeempfaenger
 Usage: #example
-* identifier[0].type = $identifier-type-de-basis#GKV
-* identifier[=].system = "http://fhir.de/sid/gkv/kvid-10"
-* identifier[=].value = "A123456789"
-* identifier[+].type = $v2-0203#MR
-* identifier[=].system = "https://fhir.krankenhaus.example/NamingSystem/PID"
-* identifier[=].value = "TestPID"
-* identifier[+].use = #secondary
-* identifier[=].type = $identifier-type-de-basis#PKV
-* identifier[=].value = "1234567890"
-* identifier[=].assigner.display = "Test PKV AG"
+* identifier[+]
+  * type = $identifier-type-de-basis#GKV
+  * system = "http://fhir.de/sid/gkv/kvid-10"
+  * value = "A123456789"
+* identifier[+]
+  * type = $v2-0203#MR
+  * system = "https://fhir.krankenhaus.example/NamingSystem/PID"
+  * value = "TestPID"
+* identifier[+]
+  * use = #secondary
+  * type = $identifier-type-de-basis#PKV
+  * value = "1234567890"
+  * assigner.display = "Test PKV AG"
 * active = true
-* name[0].use = #official
+* name[+].use = #official
 * name[=].family = "Fürstin Von Musterfrau"
   * extension[0].url = "http://fhir.de/StructureDefinition/humanname-namenszusatz"
   * extension[=].valueString = "Graf"
@@ -50,7 +53,7 @@ Usage: #example
 * maritalStatus = #M
 * gender = #female
 * birthDate = "1964-08-12"
-* address[0].type = #both
+* address[+].type = #both
 * address[=].line[0] = "Musterweg 2"
 * address[=].line[+] = "3. Etage"
 * address[=].line[0].extension[0].url = "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName"
