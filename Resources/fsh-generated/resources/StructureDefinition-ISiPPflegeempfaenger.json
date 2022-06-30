@@ -47,7 +47,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Patient",
-  "baseDefinition": "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKPatient",
+  "baseDefinition": "https://gematik.de/fhir/isik/v2/Basismodul/StructureDefinition/ISiKPatient",
   "derivation": "constraint",
   "differential": {
     "element": [
