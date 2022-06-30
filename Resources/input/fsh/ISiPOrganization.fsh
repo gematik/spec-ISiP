@@ -1,12 +1,13 @@
 Profile: IsipOrganization
 Parent: Organization
 * identifier 1..* MS
-* identifier ^slicing.discriminator.type = #pattern
-* identifier ^slicing.discriminator.path = "type"
+* identifier ^slicing.discriminator.type = #profile
+* identifier ^slicing.discriminator.path = "$this"
 * identifier ^slicing.rules = #open
-* identifier contains Institutionskennzeichen 0..1 MS and Betriebsstaettennummer 0..1 MS
+* identifier contains Institutionskennzeichen 0..1 MS and Betriebsstaettennummer 0..1 MS and TelematikId 0..1 MS
 * identifier[Institutionskennzeichen] only IKNR
 * identifier[Betriebsstaettennummer] only BSNR
+* identifier[TelematikId] only $telematik-id-profile
 * active MS
 * type 1.. MS
 * type from OrgTypeKBV-VS
@@ -50,3 +51,31 @@ Parent: Organization
   * country 1.. MS
     * obeys address-cnt-2or3-char
     * ^constraint[1].source = Canonical(IsipOrganization)
+
+Instance: ExampleIsipOrganization
+InstanceOf: IsipOrganization
+* identifier
+  * system = $telematik-id-system
+  * value = "1234567890"
+* active = true
+* name = "Haus am See"
+* type = SCT#42665001 "Nursing home (environment)"
+* address[0].type = #both
+* address[=].line[0] = "Musterweg 2"
+* address[=].line[+] = "3. Etage"
+* address[=].line[0].extension[0].url = "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName"
+* address[=].line[=].extension[=].valueString = "Musterweg"
+* address[=].line[=].extension[+].url = "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber"
+* address[=].line[=].extension[=].valueString = "2"
+* address[=].line[+].extension.url = "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-additionalLocator"
+* address[=].line[=].extension.valueString = "3. Etage"
+* address[=].city = "Musterhausen"
+* address[=].postalCode = "98764"
+* address[=].country = "DE"
+* address[+].type = #postal
+* address[=].line = "Postfach 8 15"
+  * extension.url = "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-postBox"
+  * extension.valueString = "Postfach 8 15"
+* address[=].city = "Musterhausen"
+* address[=].postalCode = "98764"
+* address[=].country = "DE"

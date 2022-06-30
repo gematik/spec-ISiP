@@ -1,11 +1,12 @@
 {
   "resourceType": "CapabilityStatement",
   "id": "ISiPCapabilityStatementBasisServer",
-  "url": "https://gematik.de/fhir/ISiP/CapabilityStatement/basis-server",
-  "name": "ISiPCapabilityStatementBasisServer",
-  "title": "ISiP CapabilityStatement Basis Server",
+  "url": "https://gematik.de/fhir/isik/v2/Basismodul/Basismodul/CapabilityStatement/server",
+  "name": "ISiPCapabilityStatementServer",
+  "title": "ISiP CapabilityStatement Server",
   "status": "active",
   "experimental": false,
+  "date": "2022-04-03",
   "publisher": "gematik GmbH",
   "contact": [
     {
@@ -42,17 +43,19 @@
         {
           "extension": [
             {
+              "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
               "valueCode": "SHALL"
             }
           ],
           "type": "Patient",
           "supportedProfile": [
-            "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKPatient"
+            "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/ISiPPflegeempfaenger"
           ],
           "interaction": [
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "SHALL"
                 }
               ],
@@ -61,6 +64,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "SHALL"
                 }
               ],
@@ -71,6 +75,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "SHALL"
                 }
               ],
@@ -81,6 +86,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "SHALL"
                 }
               ],
@@ -91,6 +97,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "SHALL"
                 }
               ],
@@ -101,6 +108,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "SHALL"
                 }
               ],
@@ -111,6 +119,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "SHALL"
                 }
               ],
@@ -121,6 +130,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "SHALL"
                 }
               ],
@@ -131,6 +141,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "MAY"
                 }
               ],
@@ -141,6 +152,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "MAY"
                 }
               ],
@@ -151,6 +163,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "MAY"
                 }
               ],
@@ -161,6 +174,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "MAY"
                 }
               ],
@@ -171,6 +185,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "MAY"
                 }
               ],
@@ -181,6 +196,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "MAY"
                 }
               ],
@@ -191,6 +207,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "MAY"
                 }
               ],
@@ -201,6 +218,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "MAY"
                 }
               ],
@@ -210,26 +228,14 @@
             }
           ],
           "searchRevInclude": [
-            "Composition:patient",
-            "Composition:subject",
-            "Composition:author",
-            "Condition:patient",
-            "Condition:subject",
-            "Procedure:patient",
-            "Procedure:subject",
             "Encounter:patient",
-            "Encounter:subject",
-            "Coverage:beneficiary",
-            "Coverage:subscriber",
-            "Coverage:patient",
-            "Coverage:payor",
-            "Account:subject",
-            "Account:patient"
+            "Encounter:subject"
           ],
           "_searchRevInclude": [
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "SHALL"
                 }
               ]
@@ -237,97 +243,7 @@
             {
               "extension": [
                 {
-                  "valueCode": "SHALL"
-                }
-              ]
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ]
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ]
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ]
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ]
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ]
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ]
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ]
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ]
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ]
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ]
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ]
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ]
-            },
-            {
-              "extension": [
-                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "SHALL"
                 }
               ]
@@ -337,17 +253,19 @@
         {
           "extension": [
             {
+              "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
               "valueCode": "SHALL"
             }
           ],
           "type": "Encounter",
           "supportedProfile": [
-            "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKontaktGesundheitseinrichtung"
+            "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/ISiPPflegeepisode"
           ],
           "interaction": [
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "SHALL"
                 }
               ],
@@ -356,6 +274,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "SHALL"
                 }
               ],
@@ -366,6 +285,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "SHALL"
                 }
               ],
@@ -376,6 +296,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "SHALL"
                 }
               ],
@@ -386,6 +307,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "SHALL"
                 }
               ],
@@ -396,6 +318,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "SHALL"
                 }
               ],
@@ -406,6 +329,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "SHALL"
                 }
               ],
@@ -416,6 +340,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "SHALL"
                 }
               ],
@@ -426,6 +351,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "SHALL"
                 }
               ],
@@ -436,16 +362,18 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "SHALL"
                 }
               ],
-              "name": "part-of",
-              "definition": "http://hl7.org/fhir/SearchParameter/Encounter-part-of",
+              "name": "account",
+              "definition": "http://hl7.org/fhir/SearchParameter/Encounter-account",
               "type": "reference"
             },
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "MAY"
                 }
               ],
@@ -456,6 +384,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "MAY"
                 }
               ],
@@ -466,6 +395,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "MAY"
                 }
               ],
@@ -476,6 +406,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "MAY"
                 }
               ],
@@ -486,15 +417,13 @@
           ],
           "searchInclude": [
             "Encounter:patient",
-            "Encounter:subject",
-            "Encounter:part-of",
-            "Encounter:diagnosis",
-            "Encounter:account"
+            "Encounter:subject"
           ],
           "_searchInclude": [
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "SHALL"
                 }
               ]
@@ -502,63 +431,7 @@
             {
               "extension": [
                 {
-                  "valueCode": "SHALL"
-                }
-              ]
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ]
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ]
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ]
-            }
-          ],
-          "searchRevInclude": [
-            "Encounter:part-of",
-            "Condition:encounter",
-            "Composition:encounter",
-            "Procedure:encounter"
-          ],
-          "_searchRevInclude": [
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ]
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ]
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ]
-            },
-            {
-              "extension": [
-                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "SHALL"
                 }
               ]
@@ -568,487 +441,19 @@
         {
           "extension": [
             {
-              "valueCode": "SHALL"
-            }
-          ],
-          "type": "Condition",
-          "supportedProfile": [
-            "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKDiagnose"
-          ],
-          "interaction": [
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ],
-              "code": "read"
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ],
-              "code": "search-type"
-            }
-          ],
-          "searchParam": [
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ],
-              "name": "_id",
-              "definition": "http://hl7.org/fhir/SearchParameter/Resource-id",
-              "type": "token"
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ],
-              "name": "clinical-status",
-              "definition": "http://hl7.org/fhir/SearchParameter/Condition-clinical-status",
-              "type": "token"
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ],
-              "name": "patient",
-              "definition": "http://hl7.org/fhir/SearchParameter/clinical-patient",
-              "type": "reference"
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ],
-              "name": "subject",
-              "definition": "http://hl7.org/fhir/SearchParameter/Condition-subject",
-              "type": "reference"
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ],
-              "name": "encounter",
-              "definition": "http://hl7.org/fhir/SearchParameter/Condition-encounter",
-              "type": "reference"
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ],
-              "name": "recorded-date",
-              "definition": "http://hl7.org/fhir/SearchParameter/Condition-recorded-date",
-              "type": "date"
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ],
-              "name": "related",
-              "definition": "http://fhir.de/SearchParameter/Condition-related",
-              "type": "reference"
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "MAY"
-                }
-              ],
-              "name": "_profile",
-              "definition": "http://hl7.org/fhir/SearchParameter/Resource-profile",
-              "type": "uri"
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "MAY"
-                }
-              ],
-              "name": "category",
-              "definition": "http://hl7.org/fhir/SearchParameter/Condition-category",
-              "type": "token"
-            }
-          ],
-          "searchInclude": [
-            "Condition:patient",
-            "Condition:subject",
-            "Condition:encounter"
-          ],
-          "_searchInclude": [
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ]
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ]
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ]
-            }
-          ],
-          "searchRevInclude": [
-            "Encounter:diagnosis"
-          ],
-          "_searchRevInclude": [
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "extension": [
-            {
-              "valueCode": "SHALL"
-            }
-          ],
-          "type": "Procedure",
-          "supportedProfile": [
-            "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKProzedur"
-          ],
-          "interaction": [
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ],
-              "code": "read"
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ],
-              "code": "search-type"
-            }
-          ],
-          "searchParam": [
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ],
-              "name": "_id",
-              "definition": "http://hl7.org/fhir/SearchParameter/Resource-id",
-              "type": "token"
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ],
-              "name": "status",
-              "definition": "http://hl7.org/fhir/SearchParameter/Procedure-status",
-              "type": "token"
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ],
-              "name": "category",
-              "definition": "http://hl7.org/fhir/SearchParameter/Procedure-category",
-              "type": "token"
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ],
-              "name": "code",
-              "definition": "http://hl7.org/fhir/SearchParameter/clinical-code",
-              "type": "token"
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ],
-              "name": "patient",
-              "definition": "http://hl7.org/fhir/SearchParameter/clinical-patient",
-              "type": "reference"
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ],
-              "name": "subject",
-              "definition": "http://hl7.org/fhir/SearchParameter/Procedure-subject",
-              "type": "reference"
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ],
-              "name": "encounter",
-              "definition": "http://hl7.org/fhir/SearchParameter/clinical-encounter",
-              "type": "reference"
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ],
-              "name": "date",
-              "definition": "http://hl7.org/fhir/SearchParameter/clinical-date",
-              "type": "date"
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "MAY"
-                }
-              ],
-              "name": "_profile",
-              "definition": "http://hl7.org/fhir/SearchParameter/Resource-profile",
-              "type": "uri"
-            }
-          ],
-          "searchInclude": [
-            "Procedure:patient",
-            "Procedure:subject",
-            "Procedure:encounter"
-          ],
-          "_searchInclude": [
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ]
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ]
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ]
-            }
-          ],
-          "searchRevInclude": [
-            "Encounter:diagnosis"
-          ],
-          "_searchRevInclude": [
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "extension": [
-            {
-              "valueCode": "SHALL"
-            }
-          ],
-          "type": "Coverage",
-          "supportedProfile": [
-            "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKVersicherungsverhaeltnisGesetzlich",
-            "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKVersicherungsverhaeltnisSelbstzahler"
-          ],
-          "interaction": [
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ],
-              "code": "read"
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ],
-              "code": "search-type"
-            }
-          ],
-          "searchParam": [
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ],
-              "name": "_id",
-              "definition": "http://hl7.org/fhir/SearchParameter/Resource-id",
-              "type": "token"
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ],
-              "name": "identifier",
-              "definition": "http://hl7.org/fhir/SearchParameter/Coverage-identifier",
-              "type": "token"
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ],
-              "name": "status",
-              "definition": "http://hl7.org/fhir/SearchParameter/Coverage-status",
-              "type": "token"
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ],
-              "name": "type",
-              "definition": "http://hl7.org/fhir/SearchParameter/Coverage-type",
-              "type": "token"
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ],
-              "name": "beneficiary",
-              "definition": "http://hl7.org/fhir/SearchParameter/Coverage-beneficiary",
-              "type": "reference"
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ],
-              "name": "payor",
-              "definition": "http://hl7.org/fhir/SearchParameter/Coverage-payor",
-              "type": "reference"
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "MAY"
-                }
-              ],
-              "name": "subscriber",
-              "definition": "http://hl7.org/fhir/SearchParameter/Coverage-subscriber",
-              "type": "reference"
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "MAY"
-                }
-              ],
-              "name": "_profile",
-              "definition": "http://hl7.org/fhir/SearchParameter/Resource-profile",
-              "type": "uri"
-            }
-          ],
-          "searchInclude": [
-            "Coverage:subscriber",
-            "Coverage:patient",
-            "Coverage:payor",
-            "Coverage:beneficiary"
-          ],
-          "_searchInclude": [
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ]
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ]
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ]
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "extension": [
-            {
+              "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
               "valueCode": "SHALL"
             }
           ],
           "type": "RelatedPerson",
           "supportedProfile": [
-            "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKAngehoeriger"
+            "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/ISiPAngehoeriger"
           ],
           "interaction": [
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "SHALL"
                 }
               ],
@@ -1057,6 +462,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "SHALL"
                 }
               ],
@@ -1067,6 +473,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "SHALL"
                 }
               ],
@@ -1077,6 +484,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "SHALL"
                 }
               ],
@@ -1087,6 +495,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "MAY"
                 }
               ],
@@ -1097,6 +506,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "MAY"
                 }
               ],
@@ -1112,26 +522,7 @@
             {
               "extension": [
                 {
-                  "valueCode": "SHALL"
-                }
-              ]
-            }
-          ],
-          "searchRevInclude": [
-            "Coverage:subscriber",
-            "Coverage:payor"
-          ],
-          "_searchRevInclude": [
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ]
-            },
-            {
-              "extension": [
-                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "SHALL"
                 }
               ]
@@ -1141,17 +532,19 @@
         {
           "extension": [
             {
+              "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
               "valueCode": "SHALL"
             }
           ],
           "type": "Practitioner",
           "supportedProfile": [
-            "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKPersonImGesundheitsberuf"
+            "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/ISiPPersonImGesundheitswesen"
           ],
           "interaction": [
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "SHALL"
                 }
               ],
@@ -1160,6 +553,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "SHALL"
                 }
               ],
@@ -1170,6 +564,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "SHALL"
                 }
               ],
@@ -1180,6 +575,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "SHALL"
                 }
               ],
@@ -1190,6 +586,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "SHALL"
                 }
               ],
@@ -1200,6 +597,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "SHALL"
                 }
               ],
@@ -1210,6 +608,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "MAY"
                 }
               ],
@@ -1220,6 +619,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "MAY"
                 }
               ],
@@ -1230,6 +630,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "MAY"
                 }
               ],
@@ -1240,6 +641,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "MAY"
                 }
               ],
@@ -1252,17 +654,19 @@
         {
           "extension": [
             {
+              "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
               "valueCode": "SHALL"
             }
           ],
-          "type": "CodeSystem",
+          "type": "Organization",
           "supportedProfile": [
-            "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKCodeSystem"
+            "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/IsipOrganization"
           ],
           "interaction": [
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "SHALL"
                 }
               ],
@@ -1271,6 +675,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "SHALL"
                 }
               ],
@@ -1281,6 +686,7 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "SHALL"
                 }
               ],
@@ -1291,143 +697,57 @@
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "SHALL"
                 }
               ],
-              "name": "url",
-              "definition": "http://hl7.org/fhir/SearchParameter/conformance-url",
-              "type": "uri"
+              "name": "identifier",
+              "definition": "http://hl7.org/fhir/SearchParameter/Organization-identifier",
+              "type": "token"
             },
             {
               "extension": [
                 {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ],
+              "name": "type",
+              "definition": "http://hl7.org/fhir/SearchParameter/Organization-type",
+              "type": "token"
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "SHALL"
                 }
               ],
               "name": "name",
-              "definition": "http://hl7.org/fhir/SearchParameter/conformance-url",
+              "definition": "http://hl7.org/fhir/SearchParameter/Organization-name",
               "type": "string"
             },
             {
               "extension": [
                 {
-                  "valueCode": "SHALL"
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "MAY"
                 }
               ],
-              "name": "status",
-              "definition": "http://hl7.org/fhir/SearchParameter/conformance-status",
+              "name": "active",
+              "definition": "http://hl7.org/fhir/SearchParameter/Organization-active",
               "type": "token"
             },
             {
               "extension": [
                 {
-                  "valueCode": "SHALL"
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "MAY"
                 }
               ],
-              "name": "version",
-              "definition": "http://hl7.org/fhir/SearchParameter/conformance-version",
-              "type": "token"
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ],
-              "name": "content-mode",
-              "definition": "http://hl7.org/fhir/SearchParameter/CodeSystem-content-mode",
-              "type": "token"
-            }
-          ]
-        },
-        {
-          "extension": [
-            {
-              "valueCode": "SHALL"
-            }
-          ],
-          "type": "Binary",
-          "supportedProfile": [
-            "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKBinary"
-          ],
-          "interaction": [
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ],
-              "code": "read"
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ],
-              "code": "search-type"
-            }
-          ],
-          "searchParam": [
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ],
-              "name": "_id",
-              "definition": "http://hl7.org/fhir/SearchParameter/Resource-id",
-              "type": "token"
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ],
-              "name": "url",
-              "definition": "http://hl7.org/fhir/SearchParameter/conformance-url",
-              "type": "uri"
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ],
-              "name": "name",
-              "definition": "http://hl7.org/fhir/SearchParameter/conformance-url",
+              "name": "address",
+              "definition": "http://hl7.org/fhir/SearchParameter/Organization-address",
               "type": "string"
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ],
-              "name": "status",
-              "definition": "http://hl7.org/fhir/SearchParameter/conformance-status",
-              "type": "token"
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ],
-              "name": "version",
-              "definition": "http://hl7.org/fhir/SearchParameter/conformance-version",
-              "type": "token"
-            },
-            {
-              "extension": [
-                {
-                  "valueCode": "SHALL"
-                }
-              ],
-              "name": "context-type-value",
-              "definition": "http://hl7.org/fhir/SearchParameter/conformance-version",
-              "type": "composite"
             }
           ]
         }
