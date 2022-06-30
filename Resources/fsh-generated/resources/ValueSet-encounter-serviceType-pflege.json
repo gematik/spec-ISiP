@@ -3,7 +3,7 @@
   "status": "active",
   "name": "EncounterServiceTypePflegeVS",
   "id": "encounter-serviceType-pflege",
-  "version": "1.0.0-ballot",
+  "version": "2.0.0-alpha1",
   "url": "https://gematik.de/fhir/ISiP/ValueSet/encounter-serviceType-pflege",
   "compose": {
     "include": [

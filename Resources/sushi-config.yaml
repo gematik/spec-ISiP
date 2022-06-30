@@ -2,12 +2,12 @@ id: de.gematik.isip
 canonical: https://gematik.de/fhir/ISiP
 name: ISIP
 status: draft
-version: 1.0.0-ballot
+version: 2.0.0-alpha1
 fhirVersion: 4.0.1
 FSHOnly: true
 publisher:
   name: Gematik GmbH
 dependencies:
-  de.gematik.isik-basismodul: 2.0.0-ballot6
+  de.gematik.isik-basismodul: 2.0.0
   de.basisprofil.r4: 1.4.0
   kbv.mio.ueberleitungsbogen: 1.0.0-kommentierung
