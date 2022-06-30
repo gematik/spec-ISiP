@@ -17,7 +17,7 @@ Alias: $Kontaktebene = http://fhir.de/CodeSystem/Kontaktebene
 //KBV ULB:
 Alias: OrgTypeKBV-VS = https://fhir.kbv.de/ValueSet/KBV_VS_MIO_ULB_Type_Of_Facility
 Alias: PractitionerSpecialityKBV = https://fhir.kbv.de/ValueSet/KBV_VS_Base_Practitioner_Speciality
-Alias: KontaktPersonRolle = 	http://terminology.hl7.org/CodeSystem/v3-RoleCode
+Alias: KontaktPersonRolle = http://terminology.hl7.org/CodeSystem/v3-RoleCode
 Alias: Facharzttitel = urn:oid:1.2.276.0.76.5.514
 
 // FHIR core

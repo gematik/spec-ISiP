@@ -19,7 +19,7 @@ Usage: #example
 * address.city = "Beispielstadt"
 * address.postalCode = "78143"
 * address.country = "DE"
-* relationship = KontaktPersonRolle#CHD "Child"
+* relationship = KontaktPersonRolle#CHILD "child"
 * telecom[+]
   * system = ContactPointSystem#phone
   * value = "+49 132 455 325"
