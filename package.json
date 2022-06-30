@@ -8,6 +8,7 @@
     ],
     "dependencies": {
         "de.gematik.isik-basismodul": "2.0.0-ballot5",
-        "kbv.mio.ueberleitungsbogen": "1.0.0-kommentierung"
+        "kbv.mio.ueberleitungsbogen": "1.0.0-kommentierung",
+        "de.basisprofil.r4": "1.3.2"
     }
 }
