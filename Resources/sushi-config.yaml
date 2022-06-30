@@ -1,5 +1,5 @@
 id: de.gematik.isip
-canonical: https://gematik.de/fhir/ISiP
+canonical: https://gematik.de/fhir/isip/v1/Basismodul
 name: ISIP
 status: draft
 version: 2.0.0-alpha1

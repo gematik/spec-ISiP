@@ -11,7 +11,7 @@
       "valueCode": "patient"
     }
   ],
-  "url": "https://gematik.de/fhir/ISiP/StructureDefinition/ISiPAngehoeriger",
+  "url": "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/ISiPAngehoeriger",
   "version": "2.0.0-alpha1",
   "name": "ISiPAngehoeriger",
   "status": "active",
@@ -47,7 +47,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "https://gematik.de/fhir/ISiP/StructureDefinition/ISiPPflegeempfaenger"
+              "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/ISiPPflegeempfaenger"
             ]
           }
         ]

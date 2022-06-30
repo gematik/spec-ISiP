@@ -11,7 +11,7 @@
       "valueCode": "business"
     }
   ],
-  "url": "https://gematik.de/fhir/ISiP/StructureDefinition/IsipOrganization",
+  "url": "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/IsipOrganization",
   "version": "2.0.0-alpha1",
   "name": "IsipOrganization",
   "status": "active",
@@ -141,7 +141,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "https://gematik.de/fhir/ISiP/ValueSet/kontaktarten"
+          "valueSet": "https://gematik.de/fhir/isip/v1/Basismodul/ValueSet/kontaktarten"
         }
       },
       {
@@ -248,7 +248,7 @@
             "severity": "warning",
             "human": "The content of the country element (if present) SHALL be selected EITHER from ValueSet ISO Country Alpha-2 http://hl7.org/fhir/ValueSet/iso3166-1-2 OR MAY be selected from ISO Country Alpha-3 Value Set http://hl7.org/fhir/ValueSet/iso3166-1-3, IF the country is not specified in value Set ISO Country Alpha-2 http://hl7.org/fhir/ValueSet/iso3166-1-2.",
             "expression": "country.empty() or (country.memberOf('http://hl7.org/fhir/ValueSet/iso3166-1-2') or country.memberOf('http://hl7.org/fhir/ValueSet/iso3166-1-3'))",
-            "source": "https://gematik.de/fhir/ISiP/StructureDefinition/IsipOrganization"
+            "source": "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/IsipOrganization"
           }
         ],
         "mustSupport": true
@@ -330,7 +330,7 @@
             "severity": "warning",
             "human": "The content of the country element (if present) SHALL be selected EITHER from ValueSet ISO Country Alpha-2 http://hl7.org/fhir/ValueSet/iso3166-1-2 OR MAY be selected from ISO Country Alpha-3 Value Set http://hl7.org/fhir/ValueSet/iso3166-1-3, IF the country is not specified in value Set ISO Country Alpha-2 http://hl7.org/fhir/ValueSet/iso3166-1-2.",
             "expression": "country.empty() or (country.memberOf('http://hl7.org/fhir/ValueSet/iso3166-1-2') or country.memberOf('http://hl7.org/fhir/ValueSet/iso3166-1-3'))",
-            "source": "https://gematik.de/fhir/ISiP/StructureDefinition/IsipOrganization"
+            "source": "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/IsipOrganization"
           }
         ],
         "mustSupport": true

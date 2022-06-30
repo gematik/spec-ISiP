@@ -3,7 +3,7 @@
   "id": "ExampleIsipOrganization",
   "meta": {
     "profile": [
-      "https://gematik.de/fhir/ISiP/StructureDefinition/IsipOrganization"
+      "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/IsipOrganization"
     ]
   },
   "identifier": [
