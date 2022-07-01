@@ -2,7 +2,7 @@ id: de.gematik.isip
 canonical: https://gematik.de/fhir/isip/v1/Basismodul
 name: ISIP
 status: draft
-version: 2.0.0-alpha1
+version: 1.0.0
 fhirVersion: 4.0.1
 FSHOnly: true
 publisher:
