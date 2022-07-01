@@ -12,7 +12,7 @@
     }
   ],
   "url": "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/IsipOrganization",
-  "version": "2.0.0-alpha1",
+  "version": "1.0.0",
   "name": "IsipOrganization",
   "status": "active",
   "fhirVersion": "4.0.1",
