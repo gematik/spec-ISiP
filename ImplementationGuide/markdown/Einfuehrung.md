@@ -1,14 +1,18 @@
 <img src="https://raw.githubusercontent.com/gematik/api-ISiK/master/images/Gematik_Logo_Flag.jpg" alt="gematik logo" width="400"/>
 
 ----
-Version: 1.0.0-CC1
+Version: 1.0.0
 
-Datum: 17.05.2022
+Datum: 30.06.2022
 
-Status: Version zur Ballotierung
+- Initialer Release
 
-Realm: Deutschland
+----
+Version: 1.0.0-ballot
 
+Datum: 08.04.2022
+
+* Initiale Ballotierungsversion für ISiP Stufe 1
 ----
 
 # Interoperabler Datenaustausch durch Informationstechnische Systeme in der Pflege (ISiP)
