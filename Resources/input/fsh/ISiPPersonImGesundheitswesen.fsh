@@ -43,7 +43,7 @@ Usage: #example
 * gender = #male
 * birthDate.extension.url = "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
 * birthDate.extension.valueCode = #masked
-* qualification.code.coding = Facharzttitel#11001 "	FA Allgemeinmedizin"
+* qualification.code.coding = Facharzttitel#11001 "FA Allgemeinmedizin"
 * telecom[+]
   * system = ContactPointSystem#phone
   * value = "+49 132 455 325"
