@@ -1,8 +1,7 @@
 Instance: ISiPCapabilityStatementBasisServer
 InstanceOf: CapabilityStatement
 Usage: #definition
-* insert Meta-Inst
-* url = "https://gematik.de/fhir/isip/v1/Basismodul/CapabilityStatement/server"
+* insert Meta-CapabilityStatement
 * name = "ISiPCapabilityStatementServer"
 * title = "ISiP CapabilityStatement Server"
 * contact.telecom.system = #url
