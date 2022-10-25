@@ -1,13 +1,13 @@
 {
     "name": "de.gematik.isip",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Package Release des ISIP Basis Modul",
     "author": null,
     "fhirVersions": [
         "4.0.1"
     ],
     "dependencies": {
-        "de.gematik.isik-basismodul": "2.0.0",
+        "de.gematik.isik-basismodul": "2.0.2",
         "kbv.mio.ueberleitungsbogen": "1.0.0-kommentierung"
     }
 }
