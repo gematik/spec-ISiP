@@ -1,6 +1,6 @@
 Profile: ISiPAngehoeriger
 Parent: ISiKAngehoeriger
-* insert meta
+* insert Meta
 * patient only Reference(ISiPPflegeempfaenger)
 * relationship MS
   * coding 1.. MS
