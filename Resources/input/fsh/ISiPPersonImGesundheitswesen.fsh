@@ -1,5 +1,6 @@
 Profile: ISiPPersonImGesundheitswesen
 Parent: ISiKPractitioner
+* meta
 * active MS
 * telecom MS
   * system 1..1 MS

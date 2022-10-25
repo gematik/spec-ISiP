@@ -1,13 +1,10 @@
 Instance: ISiPCapabilityStatementBasisServer
 InstanceOf: CapabilityStatement
 Usage: #definition
+* insert Meta-Inst
 * url = "https://gematik.de/fhir/isip/v1/Basismodul/CapabilityStatement/server"
 * name = "ISiPCapabilityStatementServer"
 * title = "ISiP CapabilityStatement Server"
-* status = #active
-* experimental = false
-* date = "2022-04-03"
-* publisher = "gematik GmbH"
 * contact.telecom.system = #url
 * contact.telecom.value = "https://www.gematik.de"
 * description = "Das vorliegende CapabilityStatement beschreibt alle verpflichtenden Interaktionen die ein ISiP-konformes System unterstützen muss um das Bestätigungsverfahren des Basismoduls zu bestehen."

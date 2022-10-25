@@ -1,5 +1,6 @@
 Profile: ISiPPflegeepisode
 Parent: ISiKEncounter
+* meta
 * class 1.. MS
 * class from EncounterClassPflegeVS
 * type contains

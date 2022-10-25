@@ -1,5 +1,6 @@
 Profile: IsipOrganization
 Parent: Organization
+* meta
 * identifier 1..* MS
 * identifier ^slicing.discriminator.type = #profile
 * identifier ^slicing.discriminator.path = "$this"
