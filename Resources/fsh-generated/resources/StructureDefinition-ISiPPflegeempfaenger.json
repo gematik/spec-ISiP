@@ -15,6 +15,9 @@
   "version": "1.0.1",
   "name": "ISiPPflegeempfaenger",
   "status": "active",
+  "experimental": false,
+  "date": "2022-10-31",
+  "publisher": "gematik GmbH",
   "description": "ISiP Pflegeempfänger",
   "fhirVersion": "4.0.1",
   "mapping": [
