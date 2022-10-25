@@ -8,6 +8,6 @@ FSHOnly: true
 publisher:
   name: Gematik GmbH
 dependencies:
-  de.gematik.isik-basismodul: 2.0.2
+  de.gematik.isik-basismodul: 2.0.1
   de.basisprofil.r4: 1.4.0
   kbv.mio.ueberleitungsbogen: 1.0.0-kommentierung
