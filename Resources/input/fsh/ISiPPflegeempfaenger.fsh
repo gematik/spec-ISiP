@@ -1,6 +1,6 @@
 Profile: ISiPPflegeempfaenger
 Parent: ISiKPatient
-* insert Meta
+//* insert Meta
 Description: "ISiP Pflegeempfänger"
 * telecom MS
   * system 1..1 MS
