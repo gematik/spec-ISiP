@@ -12,7 +12,7 @@
     }
   ],
   "url": "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/ISiPPflegeempfaenger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "ISiPPflegeempfaenger",
   "status": "active",
   "description": "ISiP Pflegeempfänger",
