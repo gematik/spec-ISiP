@@ -1,7 +1,7 @@
 Profile: ISiPPflegeempfaenger
 Parent: ISiKPatient
-//* insert Meta
-Description: "ISiP Pflegeempfänger"
+* insert Meta
+* Description: "ISiP Pflegeempfänger"
 * telecom MS
   * system 1..1 MS
   * system from KontaktArtenVS
