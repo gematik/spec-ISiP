@@ -12,9 +12,12 @@
     }
   ],
   "url": "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/ISiPPflegeepisode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "ISiPPflegeepisode",
   "status": "active",
+  "experimental": false,
+  "date": "2022-10-31",
+  "publisher": "gematik GmbH",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

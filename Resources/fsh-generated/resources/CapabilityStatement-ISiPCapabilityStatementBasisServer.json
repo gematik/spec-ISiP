@@ -2,12 +2,16 @@
   "resourceType": "CapabilityStatement",
   "id": "ISiPCapabilityStatementBasisServer",
   "url": "https://gematik.de/fhir/isip/v1/Basismodul/CapabilityStatement/server",
-  "name": "ISiPCapabilityStatementServer",
-  "title": "ISiP CapabilityStatement Server",
   "status": "active",
   "experimental": false,
-  "date": "2022-04-03",
+  "version": "1.0.1",
   "publisher": "gematik GmbH",
+  "date": "2022-10-31",
+  "implementationGuide": [
+    "https://gematik.de/fhir/isip/v1/Basismodul/ImplementationGuide/ISiP-Basismodul|1.0.1"
+  ],
+  "name": "ISiPCapabilityStatementServer",
+  "title": "ISiP CapabilityStatement Server",
   "contact": [
     {
       "telecom": [
