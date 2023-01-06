@@ -27,9 +27,11 @@ Dieser FHIR ImplementationGuide (IG) beschreibt die für diesen Zweck entwickelt
 
 Hersteller bestätigungsrelevanter Systeme sollen durch diesen IG in die Lage versetzt werden, eine konforme Implementierung zu erstellen und das Bestätigungsverfahren der gematik erfolgreich zu absolvieren.
 
+Hinweis: Sowohl für die Implementierung der ISiP-Spezifikation als auch für den Betrieb eines Produktes, das die ISiP-Spezifikation implementiert, ist eine SNOMED-CT-Lizenz notwendig. Diese kann beim [National Release Center für SNOMED CT in Deutschland](https://www.bfarm.de/DE/Kodiersysteme/Terminologien/SNOMED-CT/_node.html) beantragt werden.
+
 **Kontakt**
 
-[isip@gematik.de](isip@gematik.de)
+[isip@gematik.de](mailto:isip@gematik.de)
 
 **Herausgeber**
 
