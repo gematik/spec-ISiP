@@ -9,8 +9,9 @@ Version: 1.0.2
 
 Datum: 31.01.2023
 
-- Update Basismodul Dependency -> 2.0.3
-- Update ULB Dependency -> 1.0.0
+- Update Basismodul Dependency -> 2.0.4
+- Update ULB (KBV-MIO) Dependency -> 1.0.0
+    - statt Kommentierungs-Version
 - non-normative changes to Implementation Guide
 
 ----
