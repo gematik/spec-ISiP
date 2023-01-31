@@ -12,11 +12,11 @@
     }
   ],
   "url": "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/ISiPPflegeempfaenger",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "name": "ISiPPflegeempfaenger",
   "status": "active",
   "experimental": false,
-  "date": "2022-10-31",
+  "date": "2023-01-31",
   "publisher": "gematik GmbH",
   "description": "ISiP Pflegeempfänger",
   "fhirVersion": "4.0.1",
