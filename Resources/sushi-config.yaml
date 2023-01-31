@@ -2,12 +2,12 @@ id: de.gematik.isip
 canonical: https://gematik.de/fhir/isip/v1/Basismodul
 name: ISIP
 status: draft
-version: 1.0.1
+version: 1.0.2
 fhirVersion: 4.0.1
 FSHOnly: true
 publisher:
   name: Gematik GmbH
 dependencies:
-  de.gematik.isik-basismodul: 2.0.2
+  de.gematik.isik-basismodul: 2.0.4
   de.basisprofil.r4: 1.4.0
-  kbv.mio.ueberleitungsbogen: 1.0.0-kommentierung
+  kbv.mio.ueberleitungsbogen: 1.0.0

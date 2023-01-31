@@ -4,7 +4,7 @@
   "name": "FamilienStandVS",
   "id": "familien-stand",
   "title": "Familienstand des Pflegeempfangenden",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "url": "https://gematik.de/fhir/isip/v1/Basismodul/ValueSet/familien-stand",
   "compose": {
     "include": [
