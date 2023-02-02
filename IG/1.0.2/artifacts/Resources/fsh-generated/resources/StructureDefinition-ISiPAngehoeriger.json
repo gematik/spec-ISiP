@@ -1,0 +1,86 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "ISiPAngehoeriger",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Base.Individuals"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "patient"
+    }
+  ],
+  "url": "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/ISiPAngehoeriger",
+  "version": "1.0.2",
+  "name": "ISiPAngehoeriger",
+  "status": "active",
+  "experimental": false,
+  "date": "2023-01-31",
+  "publisher": "gematik GmbH",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "RelatedPerson",
+  "baseDefinition": "https://gematik.de/fhir/isik/v2/Basismodul/StructureDefinition/ISiKAngehoeriger",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "RelatedPerson.patient",
+        "path": "RelatedPerson.patient",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/ISiPPflegeempfaenger"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "RelatedPerson.relationship",
+        "path": "RelatedPerson.relationship",
+        "mustSupport": true
+      },
+      {
+        "id": "RelatedPerson.relationship.coding",
+        "path": "RelatedPerson.relationship.coding",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "RelatedPerson.telecom",
+        "path": "RelatedPerson.telecom",
+        "mustSupport": true
+      },
+      {
+        "id": "RelatedPerson.telecom.system",
+        "path": "RelatedPerson.telecom.system",
+        "mustSupport": true
+      },
+      {
+        "id": "RelatedPerson.telecom.value",
+        "path": "RelatedPerson.telecom.value",
+        "mustSupport": true
+      }
+    ]
+  }
+}

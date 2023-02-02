@@ -1,0 +1,343 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "IsipOrganization",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Base.Entities"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "business"
+    }
+  ],
+  "url": "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/IsipOrganization",
+  "version": "1.0.2",
+  "name": "IsipOrganization",
+  "status": "active",
+  "experimental": false,
+  "date": "2023-01-31",
+  "publisher": "gematik GmbH",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "servd",
+      "uri": "http://www.omg.org/spec/ServD/1.0/",
+      "name": "ServD"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Organization",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Organization",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Organization.identifier",
+        "path": "Organization.identifier",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "profile",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Organization.identifier:Institutionskennzeichen",
+        "path": "Organization.identifier",
+        "sliceName": "Institutionskennzeichen",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Identifier",
+            "profile": [
+              "http://fhir.de/StructureDefinition/identifier-iknr"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Organization.identifier:Betriebsstaettennummer",
+        "path": "Organization.identifier",
+        "sliceName": "Betriebsstaettennummer",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Identifier",
+            "profile": [
+              "http://fhir.de/StructureDefinition/identifier-bsnr"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Organization.identifier:TelematikId",
+        "path": "Organization.identifier",
+        "sliceName": "TelematikId",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Identifier",
+            "profile": [
+              "http://fhir.de/StructureDefinition/identifier-telematik-id"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Organization.active",
+        "path": "Organization.active",
+        "mustSupport": true
+      },
+      {
+        "id": "Organization.type",
+        "path": "Organization.type",
+        "min": 1,
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://fhir.kbv.de/ValueSet/KBV_VS_MIO_ULB_Type_Of_Facility"
+        }
+      },
+      {
+        "id": "Organization.name",
+        "path": "Organization.name",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Organization.telecom",
+        "path": "Organization.telecom",
+        "mustSupport": true
+      },
+      {
+        "id": "Organization.telecom.system",
+        "path": "Organization.telecom.system",
+        "min": 1,
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://gematik.de/fhir/isip/v1/Basismodul/ValueSet/kontaktarten"
+        }
+      },
+      {
+        "id": "Organization.telecom.value",
+        "path": "Organization.telecom.value",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Organization.telecom.use",
+        "path": "Organization.telecom.use",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Organization.address",
+        "path": "Organization.address",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        },
+        "comment": "In order to differentiate between post box addresses and physical addresses, street names and house numbers, and to add city district names, vendors can opt to support the extensions as suggested in the German Address Base Profile http://fhir.de/StructureDefinition/address-de-basis.\r\nSuch differentiations are however not required within the scope of this specification.",
+        "mustSupport": true
+      },
+      {
+        "id": "Organization.address:Strassenanschrift",
+        "path": "Organization.address",
+        "sliceName": "Strassenanschrift",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Address",
+            "profile": [
+              "http://fhir.de/StructureDefinition/address-de-basis"
+            ]
+          }
+        ],
+        "patternAddress": {
+          "type": "both"
+        },
+        "mustSupport": true
+      },
+      {
+        "id": "Organization.address:Strassenanschrift.type",
+        "path": "Organization.address.type",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Organization.address:Strassenanschrift.line",
+        "path": "Organization.address.line",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Organization.address:Strassenanschrift.line.extension:Strasse",
+        "path": "Organization.address.line.extension",
+        "sliceName": "Strasse",
+        "mustSupport": true
+      },
+      {
+        "id": "Organization.address:Strassenanschrift.line.extension:Hausnummer",
+        "path": "Organization.address.line.extension",
+        "sliceName": "Hausnummer",
+        "mustSupport": true
+      },
+      {
+        "id": "Organization.address:Strassenanschrift.line.extension:Adresszusatz",
+        "path": "Organization.address.line.extension",
+        "sliceName": "Adresszusatz",
+        "mustSupport": true
+      },
+      {
+        "id": "Organization.address:Strassenanschrift.line.extension:Postfach",
+        "path": "Organization.address.line.extension",
+        "sliceName": "Postfach",
+        "max": "0"
+      },
+      {
+        "id": "Organization.address:Strassenanschrift.city",
+        "path": "Organization.address.city",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Organization.address:Strassenanschrift.postalCode",
+        "path": "Organization.address.postalCode",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Organization.address:Strassenanschrift.country",
+        "path": "Organization.address.country",
+        "min": 1,
+        "constraint": [
+          {
+            "key": "address-cnt-2or3-char",
+            "severity": "warning",
+            "human": "The content of the country element (if present) SHALL be selected EITHER from ValueSet ISO Country Alpha-2 http://hl7.org/fhir/ValueSet/iso3166-1-2 OR MAY be selected from ISO Country Alpha-3 Value Set http://hl7.org/fhir/ValueSet/iso3166-1-3, IF the country is not specified in value Set ISO Country Alpha-2 http://hl7.org/fhir/ValueSet/iso3166-1-2.",
+            "expression": "country.empty() or (country.memberOf('http://hl7.org/fhir/ValueSet/iso3166-1-2') or country.memberOf('http://hl7.org/fhir/ValueSet/iso3166-1-3'))",
+            "source": "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/IsipOrganization"
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Organization.address:Postfach",
+        "path": "Organization.address",
+        "sliceName": "Postfach",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Address",
+            "profile": [
+              "http://fhir.de/StructureDefinition/address-de-basis"
+            ]
+          }
+        ],
+        "patternAddress": {
+          "type": "postal"
+        },
+        "mustSupport": true
+      },
+      {
+        "id": "Organization.address:Postfach.type",
+        "path": "Organization.address.type",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Organization.address:Postfach.line",
+        "path": "Organization.address.line",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Organization.address:Postfach.line.extension:Strasse",
+        "path": "Organization.address.line.extension",
+        "sliceName": "Strasse",
+        "max": "0"
+      },
+      {
+        "id": "Organization.address:Postfach.line.extension:Hausnummer",
+        "path": "Organization.address.line.extension",
+        "sliceName": "Hausnummer",
+        "max": "0"
+      },
+      {
+        "id": "Organization.address:Postfach.line.extension:Adresszusatz",
+        "path": "Organization.address.line.extension",
+        "sliceName": "Adresszusatz",
+        "max": "0"
+      },
+      {
+        "id": "Organization.address:Postfach.line.extension:Postfach",
+        "path": "Organization.address.line.extension",
+        "sliceName": "Postfach",
+        "mustSupport": true
+      },
+      {
+        "id": "Organization.address:Postfach.city",
+        "path": "Organization.address.city",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Organization.address:Postfach.postalCode",
+        "path": "Organization.address.postalCode",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Organization.address:Postfach.country",
+        "path": "Organization.address.country",
+        "min": 1,
+        "constraint": [
+          {
+            "key": "address-cnt-2or3-char",
+            "severity": "warning",
+            "human": "The content of the country element (if present) SHALL be selected EITHER from ValueSet ISO Country Alpha-2 http://hl7.org/fhir/ValueSet/iso3166-1-2 OR MAY be selected from ISO Country Alpha-3 Value Set http://hl7.org/fhir/ValueSet/iso3166-1-3, IF the country is not specified in value Set ISO Country Alpha-2 http://hl7.org/fhir/ValueSet/iso3166-1-2.",
+            "expression": "country.empty() or (country.memberOf('http://hl7.org/fhir/ValueSet/iso3166-1-2') or country.memberOf('http://hl7.org/fhir/ValueSet/iso3166-1-3'))",
+            "source": "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/IsipOrganization"
+          }
+        ],
+        "mustSupport": true
+      }
+    ]
+  }
+}

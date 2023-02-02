@@ -1,0 +1,25 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "EncounterTypePflegeVS",
+  "id": "encounter-type-pflege",
+  "version": "1.0.2",
+  "url": "https://gematik.de/fhir/isip/v1/Basismodul/ValueSet/encounter-type-pflege",
+  "compose": {
+    "include": [
+      {
+        "system": "https://gematik.de/fhir/isip/v1/Basismodul/CodeSystem/EncounterPflegeArten",
+        "concept": [
+          {
+            "code": "langzeitpflege",
+            "display": "Langzeitpflege"
+          },
+          {
+            "code": "akutPflege",
+            "display": "Akutpflege"
+          }
+        ]
+      }
+    ]
+  }
+}

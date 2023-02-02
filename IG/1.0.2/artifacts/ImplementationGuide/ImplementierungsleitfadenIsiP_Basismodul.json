@@ -1,0 +1,248 @@
+{
+  "resourceType": "ImplementationGuide",
+  "url": "https://gematik.de/fhir/isip/v1/Basismodul/ImplementationGuide/markdown/ISiP",
+  "name": "Implementierungsleitfaden ISiP",
+  "status": "active",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "packageId": "de.gematik.isip-basismodul",
+  "definition": {
+    "page": {
+      "nameUrl": "ImplementationGuide/markdown/Einfuehrung.md",
+      "title": "Einführung",
+      "generation": "markdown",
+      "page": [
+        {
+          "nameUrl": "ImplementationGuide/markdown/ReleaseNotes.md",
+          "title": "Release Notes",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "ImplementationGuide/markdown/ReleaseMatrix.md",
+          "title": "Release Matrix",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "ImplementationGuide/markdown/Motivation.md",
+          "title": "Motivation",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "ImplementationGuide/markdown/UebergreifendeFestlegungen.md",
+          "title": "Übergreifende Festlegungen",
+          "generation": "markdown",
+          "page": [
+            {
+              "nameUrl": "ImplementationGuide/markdown/UebergreifendeFestlegungen/Methodik.md",
+              "title": "Methodik",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide/markdown/UebergreifendeFestlegungen/BestaetigungsrelevanteSysteme.md",
+              "title": "Bestätigungsrelevante Systeme",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide/markdown/UebergreifendeFestlegungen/Kompatibilitaet.md",
+              "title": "Kompatibilität",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide/markdown/UebergreifendeFestlegungen/MustSupportFlags.md",
+              "title": "Must-Support-Flags",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide/markdown/UebergreifendeFestlegungen/Repraesentationsformate.md",
+              "title": "Repräsentationsformate",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide/markdown/UebergreifendeFestlegungen/Suchparameter.md",
+              "title": "Suchparameter",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide/markdown/UebergreifendeFestlegungen/RestApi.md",
+              "title": "REST-API",
+              "generation": "markdown"
+            }
+          ]
+        },
+        {
+          "nameUrl": "ImplementationGuide/markdown/Datenobjekte/Datenobjekte.md",
+          "title": "Datenobjekte",
+          "generation": "markdown",
+          "page": [
+            {
+              "nameUrl": "ImplementationGuide/markdown/CapabilityStatement.md",
+              "title": "CapabilityStatement",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide/markdown/Datenobjekte/Datenobjekte_Pflegeempfaenger.md",
+              "title": "Pflegeempfänger (Patient)",
+              "generation": "markdown",
+              "page": [
+                {
+                  "nameUrl": "ImplementationGuide/markdown/Pflegeempfaenger/Pflegeempfaenger_Kompatibilitaet.md",
+                  "title": "Kompatibilität",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/Pflegeempfaenger/Pflegeempfaenger_Profil.md",
+                  "title": "Profil",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/Pflegeempfaenger/Pflegeempfaenger_AnmerkungenZuDenMustSupportFeldern.md",
+                  "title": "Anmerkungen zu den Must-Support Feldern",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/Pflegeempfaenger/Pflegeempfaenger_Interaktionen.md",
+                  "title": "Interaktionen",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/Pflegeempfaenger/Pflegeempfaenger_Beispiele.md",
+                  "title": "Beispiele",
+                  "generation": "markdown"
+                }
+              ]
+            },
+            {
+              "nameUrl": "ImplementationGuide/markdown/Datenobjekte/Datenobjekte_Pflegeepisode.md",
+              "title": "Pflegeepisode (Encounter)",
+              "generation": "markdown",
+              "page": [
+                {
+                  "nameUrl": "ImplementationGuide/markdown/Pflegeepisode/Pflegeepisode_Kompatibilitaet.md",
+                  "title": "Kompatibilität",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/Pflegeepisode/Pflegeepisode_Profil.md",
+                  "title": "Profil",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/Pflegeepisode/Pflegeepisode_AnmerkungenZuDenMustSupportFeldern.md",
+                  "title": "Anmerkungen zu den Must-Support Feldern",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/Pflegeepisode/Pflegeepisode_Interaktionen.md",
+                  "title": "Interaktionen",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/Pflegeepisode/Pflegeepisode_Beispiele.md",
+                  "title": "Beispiele",
+                  "generation": "markdown"
+                }
+              ]
+            },
+            {
+              "nameUrl": "ImplementationGuide/markdown/Datenobjekte/Datenobjekte_Angehoeriger.md",
+              "title": "Angehöriger (RelatedPerson)",
+              "generation": "markdown",
+              "page": [
+                {
+                  "nameUrl": "ImplementationGuide/markdown/Angehoeriger/Angehoeriger_Kompatibilitaet.md",
+                  "title": "Kompatibilität",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/Angehoeriger/Angehoeriger_Profil.md",
+                  "title": "Profil",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/Angehoeriger/Angehoeriger_AnmerkungenZuDenMustSupportFeldern.md",
+                  "title": "Anmerkungen zu den Must-Support Feldern",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/Angehoeriger/Angehoeriger_Interaktionen.md",
+                  "title": "Interaktionen",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/Angehoeriger/Angehoeriger_Beispiele.md",
+                  "title": "Beispiele",
+                  "generation": "markdown"
+                }
+              ]
+            },
+            {
+              "nameUrl": "ImplementationGuide/markdown/Datenobjekte/Datenobjekte_PersonImGesundheitsberuf.md",
+              "title": "PersonImGesundheitsberuf (Practitioner)",
+              "generation": "markdown",
+              "page": [
+                {
+                  "nameUrl": "ImplementationGuide/markdown/PersonImGesundheitsberuf/PersonImGesundheitsberuf_Kompatibilitaet.md",
+                  "title": "Kompatibilität",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/PersonImGesundheitsberuf/PersonImGesundheitsberuf_Profil.md",
+                  "title": "Profil",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/PersonImGesundheitsberuf/PersonImGesundheitsberuf_AnmerkungenZuDenMustSupportFeldern.md",
+                  "title": "Anmerkungen zu den Must-Support Feldern",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/PersonImGesundheitsberuf/PersonImGesundheitsberuf_Interaktionen.md",
+                  "title": "Interaktionen",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/PersonImGesundheitsberuf/PersonImGesundheitsberuf_Beispiele.md",
+                  "title": "Beispiele",
+                  "generation": "markdown"
+                }
+              ]
+            },
+            {
+              "nameUrl": "ImplementationGuide/markdown/Datenobjekte/Datenobjekte_Organisation.md",
+              "title": "Organisation (Organization)",
+              "generation": "markdown",
+              "page": [
+                {
+                  "nameUrl": "ImplementationGuide/markdown/Organisation/Organisation_Kompatibilitaet.md",
+                  "title": "Kompatibilität",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/Organisation/Organisation_Profil.md",
+                  "title": "Profil",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/Organisation/Organisation_AnmerkungenZuDenMustSupportFeldern.md",
+                  "title": "Anmerkungen zu den Must-Support Feldern",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/Organisation/Organisation_Interaktionen.md",
+                  "title": "Interaktionen",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/Organisation/Organisation_Beispiele.md",
+                  "title": "Beispiele",
+                  "generation": "markdown"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
