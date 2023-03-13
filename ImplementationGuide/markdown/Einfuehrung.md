@@ -30,7 +30,7 @@ Hinweis: Sowohl für die Implementierung der ISiP-Spezifikation als auch für de
 
 **Kontakt**
 
-[isip@gematik.de](mailto:isip@gematik.de)
+Bringen Sie allgemeine Fragen und Anmerkungen gerne über unser Anfrageportal ein: [Anfragen ISiK + ISiP](https://service.gematik.de/servicedesk/customer/portal/16)
 
 **Herausgeber**
 
